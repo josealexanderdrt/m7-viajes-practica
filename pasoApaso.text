@@ -1,0 +1,22 @@
+npm init -y
+
+        ctrl shif ñ = comando para abir una terminal
+    Esto es para iniciar un proyecto npm, es un comando para inicializar un nuevo proyecto de Node.js con un archivo package.json predeterminado sin tener que responder manualmente las pregutas del asistente de inicializacion.
+
+npm install pg
+
+    nos permite interactuar con una base de datos PostgreSQL 
+
+server.js 
+
+    es nuestro servidor 
+
+"type": "module",
+
+    con la introduccion de ES6  Node.js se introdujeron nuevas caracteristicas para trabajar con modulos y una de esas caracteristicas es la sintaxis import y export que es diferente de la forma en que se gestionaban los modulos en CommonJS
+
+ "dev": "node --watch server.js",
+
+ cambios
+
+ultimos cambios 
