@@ -14,3 +14,47 @@ Completed: 200 message:  Time response: 4 ms Request ID: [84bcdaf7-38e5-404e-a15
 Started GET /api/v1/travels for :: ::ffff:127.0.0.1 at Thu Dec 28 2023 21:04:02 GMT-0300 (hora de verano de Chile)
   Parameters in body: {}
 Completed: 200 message:  Time response: 6 ms Request ID: [bf663f53-a044-4c1e-bc0c-b7ef05b835df]
+
+Started GET /api/v1/travels for :: ::ffff:127.0.0.1 at Thu Dec 28 2023 22:07:04 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 200 message:  Time response: 184 ms Request ID: [1a24e35c-c53b-4086-aef2-caf8c23cd8ab]
+
+Started GET /api/v1/travels for :: ::ffff:127.0.0.1 at Thu Dec 28 2023 22:07:05 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 200 message:  Time response: 3 ms Request ID: [96abd200-ff2e-483e-a2f3-9a9f0ffad445]
+
+Started GET /api/v1/travels for :: ::ffff:127.0.0.1 at Thu Dec 28 2023 22:07:45 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 200 message:  Time response: 60 ms Request ID: [8f0cebbf-5555-474b-bf43-3d72de2c3b38]
+
+Started GET /api/v1/travels for :: ::ffff:127.0.0.1 at Thu Dec 28 2023 22:24:05 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 200 message:  Time response: 57 ms Request ID: [afe3e8ac-9b81-4e85-935e-94e4bfb948ce]
+
+Started GET /api/v1/travels for :: ::ffff:127.0.0.1 at Thu Dec 28 2023 22:25:39 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travels":{"destino":"Colombia","presupuesto":1000}}
+Completed: 200 message:  Time response: 67 ms Request ID: [83349eee-22d5-4cfa-a07f-dbfd0e8fdfd5]
+
+Started GET /api/v1/travels for :: ::ffff:127.0.0.1 at Thu Dec 28 2023 22:25:42 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travels":{"destino":"Colombia","presupuesto":1000}}
+Completed: 200 message:  Time response: 5 ms Request ID: [85e77174-8522-4df4-bd8c-baa741c8919e]
+
+Started POST /api/v1/travels for :: ::ffff:127.0.0.1 at Thu Dec 28 2023 22:25:45 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travels":{"destino":"Colombia","presupuesto":1000}}
+Completed: 500 message:  Time response: 3 ms Request ID: [3fddc260-300e-4ab5-b109-0832be71afe0]
+
+Started POST /api/v1/travels for :: ::ffff:127.0.0.1 at Thu Dec 28 2023 22:26:27 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Colombia","presupuesto":1000}}
+Completed: 201 message:  Time response: 58 ms Request ID: [4fb4f61d-9711-4c48-b669-e8e351ea02b7]
+
+Started GET /api/v1/travels for :: ::ffff:127.0.0.1 at Thu Dec 28 2023 22:26:33 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Colombia","presupuesto":1000}}
+Completed: 200 message:  Time response: 3 ms Request ID: [2ac92010-51f7-43f5-8649-6a90c32ef776]
+
+Started POST /api/v1/travels for :: ::ffff:127.0.0.1 at Thu Dec 28 2023 22:27:18 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Venezuela","presupuesto":50000}}
+Completed: 201 message:  Time response: 98 ms Request ID: [517d3b9a-3b0c-4d60-99b4-ecfd1ea19495]
+
+Started GET /api/v1/travels for :: ::ffff:127.0.0.1 at Thu Dec 28 2023 22:27:22 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Venezuela","presupuesto":50000}}
+Completed: 200 message:  Time response: 4 ms Request ID: [dd477d74-4f33-4742-b478-01841aacad5b]
