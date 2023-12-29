@@ -1,0 +1,8 @@
+
+Started GET /api/v1/travels for :: ::ffff:127.0.0.1 at Thu Dec 28 2023 20:57:09 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 200 message:  Time response: 14 ms Request ID: [c6c05e2c-7db5-4c3c-923e-639e2717ed9b]
+
+Started GET /api/v1/travels for :: ::ffff:127.0.0.1 at Thu Dec 28 2023 20:59:46 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 200 message:  Time response: 15 ms Request ID: [17fa4eba-28d2-4a5d-99b5-b9b4c6a90ecf]

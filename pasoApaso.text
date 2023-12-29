@@ -17,6 +17,8 @@ server.js
 
  "dev": "node --watch server.js",
 
- cambios
+npm i logger-express
 
-ultimos cambios 
+npm i express
+
+npm i cors
