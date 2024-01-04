@@ -11,4 +11,4 @@ app.use(cors());
 app.use(logger());
 app.use("/api/v1", travelsRouter);
 
-app.listen(PORT, console.log(`Servidor encendido en el puerto ${PORT}`) ) 
+app.listen(PORT, console.log(`Servidor encendido en el puerto:  http://localhost:${PORT}`) ) 

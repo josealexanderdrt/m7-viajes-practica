@@ -1,0 +1,360 @@
+
+Started GET /api/v1/travels for :: ::ffff:127.0.0.1 at Wed Jan 03 2024 19:03:33 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Venezuela","presupuesto":50000}}
+Completed: 200 message:  Time response: 106 ms Request ID: [a15c4371-e8e3-49b2-abc7-a9663838ee34]
+
+Started GET /api/v1/travels for :: ::ffff:127.0.0.1 at Wed Jan 03 2024 19:03:33 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Venezuela","presupuesto":50000}}
+Completed: 200 message:  Time response: 4 ms Request ID: [3ffe0386-b419-4c36-a9a9-1e5f04022c93]
+
+Started GET /api/v1/travels for :: ::ffff:127.0.0.1 at Wed Jan 03 2024 19:03:33 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Venezuela","presupuesto":50000}}
+Completed: 200 message:  Time response: 2 ms Request ID: [3fce951d-7292-41c7-9c26-cf06ac1e9f72]
+
+Started GET /api/v1/travels for :: ::ffff:127.0.0.1 at Wed Jan 03 2024 19:03:34 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Venezuela","presupuesto":50000}}
+Completed: 200 message:  Time response: 3 ms Request ID: [43d32055-648e-4320-a270-074f422afd0b]
+
+Started GET /api/v1/travelsfff for :: ::ffff:127.0.0.1 at Wed Jan 03 2024 19:03:43 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Venezuela","presupuesto":50000}}
+Completed: 404 message:  Time response: 3 ms Request ID: [8c9c172a-ef9f-44d8-a59a-a0227ff8a8c1]
+
+Started GET /api/v1/travels for :: ::ffff:127.0.0.1 at Wed Jan 03 2024 19:03:50 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Venezuela","presupuesto":50000}}
+Completed: 200 message:  Time response: 42 ms Request ID: [fb5f3b32-1e7e-415f-97b0-e5812d5ba04d]
+
+Started GET / for :: ::1 at Wed Jan 03 2024 19:05:27 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 404 message:  Time response: 9 ms Request ID: [2821d578-6c32-4811-a6d5-4ad9b81ee7b9]
+
+Started GET /api/v1 for :: ::1 at Wed Jan 03 2024 19:05:51 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 404 message:  Time response: 2 ms Request ID: [326a2ddb-1b57-47b1-b82d-7df9a7686bd1]
+
+Started GET /api/v1/travels for :: ::1 at Wed Jan 03 2024 19:06:10 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 200 message:  Time response: 57 ms Request ID: [05d043c4-a743-4148-9de7-74852f9b67ec]
+
+Started GET /favicon.ico for :: ::1 at Wed Jan 03 2024 19:06:10 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 404 message:  Time response: 2 ms Request ID: [afd0dadb-f5e7-42dd-8204-108ba602ecbc]
+
+Started GET /api/v1/travels for :: ::1 at Wed Jan 03 2024 19:06:13 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 304 message:  Time response: 4 ms Request ID: [7e97cd4e-a596-499b-8f0c-5ca210218f21]
+
+Started GET /api/v1/travels for :: ::ffff:127.0.0.1 at Wed Jan 03 2024 19:58:48 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Venezuela","presupuesto":50000}}
+Completed: 200 message:  Time response: 53 ms Request ID: [ab41103d-61e6-4ec2-9e1d-6f131d2e4acb]
+
+Started GET /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Wed Jan 03 2024 19:58:53 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Venezuela","presupuesto":50000}}
+Completed: 200 message:  Time response: 25 ms Request ID: [2695998f-18e0-49ed-8b90-271368983e29]
+
+Started GET /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Wed Jan 03 2024 19:58:57 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Venezuela","presupuesto":50000}}
+Completed: 200 message:  Time response: 154 ms Request ID: [8da2ebca-4556-4973-b867-3a49674231e6]
+
+Started GET /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Wed Jan 03 2024 19:59:35 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Venezuela","presupuesto":50000}}
+Completed: 200 message:  Time response: 61 ms Request ID: [b9e5c165-ace6-43ee-98d6-2adfb3882461]
+
+Started GET /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Wed Jan 03 2024 19:59:37 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Venezuela","presupuesto":50000}}
+Completed: 200 message:  Time response: 150 ms Request ID: [75264b12-5cdc-4193-bfe3-989e091faefb]
+
+Started GET /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Wed Jan 03 2024 20:00:34 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Venezuela","presupuesto":50000}}
+Completed: 200 message:  Time response: 59 ms Request ID: [a288e7e3-272e-4553-87d9-ffddfe91298b]
+
+Started GET /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Wed Jan 03 2024 20:01:34 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Venezuela","presupuesto":50000}}
+Completed: 200 message:  Time response: 170 ms Request ID: [7eff4f67-d0c4-40f5-896e-2ed3df69d1d8]
+
+Started GET /api/v1/travels for :: ::ffff:127.0.0.1 at Wed Jan 03 2024 20:01:53 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Venezuela","presupuesto":50000}}
+Completed: 200 message:  Time response: 45 ms Request ID: [e452afe7-a3c6-44fe-8779-4cb64593a6c8]
+
+Started GET /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Wed Jan 03 2024 20:02:35 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Venezuela","presupuesto":50000}}
+Completed: 200 message:  Time response: 60 ms Request ID: [531c7c46-d62a-44ae-a84b-d1a014037a92]
+
+Started GET /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Wed Jan 03 2024 20:03:21 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Venezuela","presupuesto":50000}}
+Completed: 200 message:  Time response: 58 ms Request ID: [16736d49-6e90-486f-9f3b-ae9905982d6d]
+
+Started GET /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Wed Jan 03 2024 20:04:55 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Venezuela","presupuesto":50000}}
+Completed: 200 message:  Time response: 64 ms Request ID: [ebea215f-ef49-4078-b458-1eb823cfb4d7]
+
+Started GET /api/v1/travels/2 for :: ::ffff:127.0.0.1 at Wed Jan 03 2024 20:05:03 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Venezuela","presupuesto":50000}}
+Completed: 200 message:  Time response: 4 ms Request ID: [742969d2-3164-4c9a-9561-8b9a99131d19]
+
+Started GET /api/v1/travels/2 for :: ::ffff:127.0.0.1 at Wed Jan 03 2024 20:05:15 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Venezuela","presupuesto":50000}}
+Completed: 200 message:  Time response: 61 ms Request ID: [e00003b8-0b5d-4f6b-87ca-a09c17705e5e]
+
+Started GET /api/v1/travels/2 for :: ::ffff:127.0.0.1 at Wed Jan 03 2024 20:05:33 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Venezuela","presupuesto":50000}}
+Completed: 200 message:  Time response: 53 ms Request ID: [115a179d-0e87-4374-b8c1-510fbd3b2ba8]
+
+Started GET /api/v1/travels/2 for :: ::ffff:127.0.0.1 at Wed Jan 03 2024 20:07:43 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Venezuela","presupuesto":50000}}
+Completed: 200 message:  Time response: 56 ms Request ID: [f0c36fec-eca9-40ef-9b7b-c6e3d693d98a]
+
+Started GET /api/v1/travels/2 for :: ::ffff:127.0.0.1 at Wed Jan 03 2024 20:08:11 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Venezuela","presupuesto":50000}}
+Completed: 200 message:  Time response: 54 ms Request ID: [e93d73d9-0f78-4a15-a141-46904f938de8]
+
+Started GET /api/v1/travels/2 for :: ::ffff:127.0.0.1 at Wed Jan 03 2024 20:08:14 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Venezuela","presupuesto":50000}}
+Completed: 200 message:  Time response: 3 ms Request ID: [2345f641-f980-49ee-8ca1-4f842ae77885]
+
+Started GET /api/v1/travels/2 for :: ::ffff:127.0.0.1 at Wed Jan 03 2024 20:08:17 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Venezuela","presupuesto":50000}}
+Completed: 200 message:  Time response: 3 ms Request ID: [6250c388-8fe0-4f72-aedb-18a1444f77c3]
+
+Started GET /api/v1/travels/2 for :: ::ffff:127.0.0.1 at Wed Jan 03 2024 20:08:42 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Venezuela","presupuesto":50000}}
+Completed: 200 message:  Time response: 57 ms Request ID: [cfacf485-03f4-40b4-939b-4dbf36a4369f]
+
+Started GET /api/v1/travels/2 for :: ::ffff:127.0.0.1 at Wed Jan 03 2024 20:09:44 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Venezuela","presupuesto":50000}}
+Completed: 200 message:  Time response: 54 ms Request ID: [4c6bb0d9-51e9-4241-a425-1299f9d11eb0]
+
+Started GET /api/v1/travels/2 for :: ::ffff:127.0.0.1 at Wed Jan 03 2024 20:09:47 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Venezuela","presupuesto":50000}}
+Completed: 200 message:  Time response: 4 ms Request ID: [6307aba2-7209-4779-be57-d67e332e306b]
+
+Started GET /api/v1/travels/2 for :: ::ffff:127.0.0.1 at Wed Jan 03 2024 20:10:02 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Venezuela","presupuesto":50000}}
+Completed: 200 message:  Time response: 56 ms Request ID: [22b0ac2e-15bd-4d68-becb-ec7eeee67cd8]
+
+Started GET /api/v1/travels/2 for :: ::ffff:127.0.0.1 at Wed Jan 03 2024 20:10:27 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Venezuela","presupuesto":50000}}
+Completed: 200 message:  Time response: 52 ms Request ID: [653b2a74-d624-4e15-966a-8b0c8ca3501b]
+
+Started GET /api/v1/travels/2 for :: ::ffff:127.0.0.1 at Wed Jan 03 2024 20:11:25 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Venezuela","presupuesto":50000}}
+Completed: 200 message:  Time response: 54 ms Request ID: [75711e78-fb1a-4000-80aa-70c62bc1f0a2]
+
+Started GET /api/v1/travels/2 for :: ::ffff:127.0.0.1 at Wed Jan 03 2024 20:11:46 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Venezuela","presupuesto":50000}}
+Completed: 200 message:  Time response: 167 ms Request ID: [e5c01f97-6130-4bb0-9f7b-a4267cca4c62]
+
+Started GET /api/v1/travels/2 for :: ::ffff:127.0.0.1 at Wed Jan 03 2024 20:12:14 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Venezuela","presupuesto":50000}}
+Completed: 200 message:  Time response: 55 ms Request ID: [e6afe3d0-6311-4fe9-8500-5ff625a284ba]
+
+Started GET /api/v1/travels/2 for :: ::ffff:127.0.0.1 at Wed Jan 03 2024 20:12:15 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Venezuela","presupuesto":50000}}
+Completed: 200 message:  Time response: 5 ms Request ID: [8f1fe289-6517-4f74-87cd-cc03935c7611]
+
+Started GET /api/v1/travels/2 for :: ::ffff:127.0.0.1 at Wed Jan 03 2024 20:12:39 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Venezuela","presupuesto":50000}}
+Completed: 200 message:  Time response: 54 ms Request ID: [77b290f6-925f-412b-9958-06b985966527]
+
+Started GET /api/v1/travels/2 for :: ::ffff:127.0.0.1 at Wed Jan 03 2024 20:13:07 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Venezuela","presupuesto":50000}}
+Completed: 200 message:  Time response: 53 ms Request ID: [a5779999-a2a9-4254-8f00-53f59b71e1ab]
+
+Started GET /api/v1/travels/2 for :: ::ffff:127.0.0.1 at Wed Jan 03 2024 20:13:49 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Venezuela","presupuesto":50000}}
+Completed: 200 message:  Time response: 54 ms Request ID: [37cca555-70cc-4caf-aa45-d7602153e5c1]
+
+Started GET /api/v1/travels/2 for :: ::ffff:127.0.0.1 at Wed Jan 03 2024 20:14:02 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Venezuela","presupuesto":50000}}
+Completed: 200 message:  Time response: 57 ms Request ID: [14904cd7-b820-44d3-ba6d-00a6a8819436]
+
+Started GET /api/v1/travels/2 for :: ::ffff:127.0.0.1 at Wed Jan 03 2024 20:21:42 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Venezuela","presupuesto":50000}}
+Completed: 200 message:  Time response: 52 ms Request ID: [16f6afd7-ffa8-4f57-b563-6b8e2f650173]
+
+Started GET /api/v1/travels/2 for :: ::ffff:127.0.0.1 at Wed Jan 03 2024 20:22:11 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Venezuela","presupuesto":50000}}
+Completed: 200 message:  Time response: 56 ms Request ID: [47c0087d-dc10-406c-9dc9-c8dee0c2ff3a]
+
+Started GET /api/v1/travels/2 for :: ::ffff:127.0.0.1 at Wed Jan 03 2024 20:22:20 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Venezuela","presupuesto":50000}}
+Completed: 200 message:  Time response: 54 ms Request ID: [6f769cee-a720-4121-a3ec-afe03b4a31f9]
+
+Started GET /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Wed Jan 03 2024 20:22:40 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Venezuela","presupuesto":50000}}
+Completed: 200 message:  Time response: 40 ms Request ID: [ae21fd2a-d5d8-462c-950f-b4b9aea4032c]
+
+Started GET /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Wed Jan 03 2024 20:23:05 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Venezuela","presupuesto":50000}}
+Completed: 200 message:  Time response: 56 ms Request ID: [c611b1c8-51ea-45d0-be3a-5d63554f68f1]
+
+Started GET /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Wed Jan 03 2024 20:23:12 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Venezuela","presupuesto":50000}}
+Completed: 200 message:  Time response: 4 ms Request ID: [7336e5dc-c271-4566-a427-c0796dc0870a]
+
+Started GET /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Wed Jan 03 2024 20:24:11 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Venezuela","presupuesto":50000}}
+Completed: 200 message:  Time response: 57 ms Request ID: [fc444a06-1c25-4f69-94c3-3645c16531ed]
+
+Started GET /api/v1/travels/2 for :: ::ffff:127.0.0.1 at Wed Jan 03 2024 20:24:17 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Venezuela","presupuesto":50000}}
+Completed: 200 message:  Time response: 4 ms Request ID: [b47598ab-373d-4749-b88e-9e300cb8c2e3]
+
+Started GET /api/v1/travels/2 for :: ::ffff:127.0.0.1 at Wed Jan 03 2024 20:24:56 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Venezuela","presupuesto":50000}}
+Completed: 200 message:  Time response: 54 ms Request ID: [2ffc0795-689e-4fd2-8632-da0c0e465f74]
+
+Started GET /api/v1/travels/2 for :: ::ffff:127.0.0.1 at Wed Jan 03 2024 20:25:10 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Venezuela","presupuesto":50000}}
+Completed: 200 message:  Time response: 55 ms Request ID: [4c72139b-0627-49e4-ae92-3617dc5554e1]
+
+Started GET /api/v1/travels/2 for :: ::ffff:127.0.0.1 at Wed Jan 03 2024 20:25:37 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Venezuela","presupuesto":50000}}
+Completed: 200 message:  Time response: 56 ms Request ID: [1092f88a-427b-4d24-bfa4-31f79188281b]
+
+Started GET /api/v1/travels/2 for :: ::ffff:127.0.0.1 at Wed Jan 03 2024 20:26:50 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Venezuela","presupuesto":50000}}
+Completed: 200 message:  Time response: 57 ms Request ID: [1cf07617-0b15-4f4d-95b1-a98b85dbc8bb]
+
+Started GET /api/v1/travels/2 for :: ::ffff:127.0.0.1 at Wed Jan 03 2024 20:27:17 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Venezuela","presupuesto":50000}}
+Completed: 200 message:  Time response: 57 ms Request ID: [acd3e34f-7cd7-4bff-b56a-1512368dc069]
+
+Started GET /api/v1/travels/2 for :: ::ffff:127.0.0.1 at Wed Jan 03 2024 20:28:39 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Venezuela","presupuesto":50000}}
+Completed: 200 message:  Time response: 55 ms Request ID: [076f926b-8400-4f7f-9edc-ac326ef9b890]
+
+Started GET /api/v1/travels/2 for :: ::ffff:127.0.0.1 at Wed Jan 03 2024 20:29:56 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Venezuela","presupuesto":50000}}
+Completed: 200 message:  Time response: 58 ms Request ID: [658db441-1fd8-4b8c-98ef-4ea176748b10]
+
+Started GET /api/v1/travels/2 for :: ::ffff:127.0.0.1 at Wed Jan 03 2024 20:31:52 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Venezuela","presupuesto":50000}}
+Completed: 200 message:  Time response: 160 ms Request ID: [a6deba98-3590-4dd5-a69f-ead6b93f0529]
+
+Started GET /api/v1/travels/2 for :: ::ffff:127.0.0.1 at Wed Jan 03 2024 20:31:54 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Venezuela","presupuesto":50000}}
+Completed: 200 message:  Time response: 4 ms Request ID: [69d58f94-e44a-4022-aa25-1c4214505744]
+
+Started GET /api/v1/travels/2 for :: ::ffff:127.0.0.1 at Wed Jan 03 2024 20:32:15 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Venezuela","presupuesto":50000}}
+Completed: 200 message:  Time response: 56 ms Request ID: [bc11dc4b-7b63-41df-92b8-737031f788d7]
+
+Started GET /api/v1/travels/2 for :: ::ffff:127.0.0.1 at Wed Jan 03 2024 20:32:17 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Venezuela","presupuesto":50000}}
+Completed: 200 message:  Time response: 4 ms Request ID: [57945b9b-01ed-4cb7-aa71-2454c00ecb56]
+
+Started GET /api/v1/travels for :: ::ffff:127.0.0.1 at Wed Jan 03 2024 20:32:26 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Venezuela","presupuesto":50000}}
+Completed: 200 message:  Time response: 3 ms Request ID: [7f369455-25b4-45e9-8953-0654fadd4bb9]
+
+Started GET /api/v1/travels/1 for :: ::1 at Wed Jan 03 2024 20:32:57 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 200 message:  Time response: 49 ms Request ID: [5009576a-0d5d-4761-9f1c-6974f0fc50ce]
+
+Started GET /api/v1/travels/2 for :: ::1 at Wed Jan 03 2024 20:33:05 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 200 message:  Time response: 2 ms Request ID: [34e0458c-4a9d-4feb-8db5-90d8655468a6]
+
+Started GET /api/v1/travels for :: ::ffff:127.0.0.1 at Wed Jan 03 2024 20:37:12 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Venezuela","presupuesto":50000}}
+Completed: 200 message:  Time response: 58 ms Request ID: [c56d820b-8445-4fde-ba69-2bfb9792c33b]
+
+Started GET /api/v1/travels/2 for :: ::ffff:127.0.0.1 at Wed Jan 03 2024 20:37:17 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Venezuela","presupuesto":50000}}
+Completed: 200 message:  Time response: 3 ms Request ID: [88b766b7-270d-462a-88d6-8c46f20fd748]
+
+Started GET /api/v1/travels/3 for :: ::ffff:127.0.0.1 at Wed Jan 03 2024 20:37:22 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Venezuela","presupuesto":50000}}
+Completed: 200 message:  Time response: 6 ms Request ID: [8513bfb0-3e8f-4deb-8f9a-70a529c6022e]
+
+Started GET /api/v1/travels/4 for :: ::ffff:127.0.0.1 at Wed Jan 03 2024 20:38:27 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Venezuela","presupuesto":50000}}
+Completed: 200 message:  Time response: 42 ms Request ID: [e4299df1-552f-48e9-9f75-f1f3655230b4]
+
+Started GET /api/v1/travels/4 for :: ::ffff:127.0.0.1 at Wed Jan 03 2024 20:38:31 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Venezuela","presupuesto":50000}}
+Completed: 200 message:  Time response: 4 ms Request ID: [54df339c-f0bf-4242-82d8-f4d19ab7787d]
+
+Started GET /api/v1/travels/4 for :: ::ffff:127.0.0.1 at Wed Jan 03 2024 20:44:26 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Venezuela","presupuesto":50000}}
+Completed: 500 message:  Time response: 160 ms Request ID: [e705c705-a6af-40b9-805c-749118bb5f5d]
+
+Started GET /api/v1/travels/2 for :: ::ffff:127.0.0.1 at Wed Jan 03 2024 20:44:33 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Venezuela","presupuesto":50000}}
+Completed: 200 message:  Time response: 3 ms Request ID: [568cfeae-488c-4d4d-8e57-3b7dc5aba3e5]
+
+Started GET /api/v1/travels/4 for :: ::ffff:127.0.0.1 at Wed Jan 03 2024 20:44:36 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Venezuela","presupuesto":50000}}
+Completed: 500 message:  Time response: 3 ms Request ID: [781a5c56-bc65-45e4-a6fe-dc301cbe77f7]
+
+Started GET /api/v1/travels/3 for :: ::ffff:127.0.0.1 at Wed Jan 03 2024 20:45:02 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Venezuela","presupuesto":50000}}
+Completed: 500 message:  Time response: 40 ms Request ID: [7453505d-a891-4402-8629-0bd701da5adc]
+
+Started GET /api/v1/travels/3 for :: ::ffff:127.0.0.1 at Wed Jan 03 2024 20:45:51 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Venezuela","presupuesto":50000}}
+Completed: 500 message:  Time response: 58 ms Request ID: [2cad9cce-cbe0-4a23-8254-1700f7f9b263]
+
+Started GET /api/v1/travels/3 for :: ::ffff:127.0.0.1 at Wed Jan 03 2024 20:47:43 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Venezuela","presupuesto":50000}}
+Completed: 500 message:  Time response: 55 ms Request ID: [24cde4c0-1c41-4b31-b376-6585fd8180b5]
+
+Started GET /api/v1/travels/3 for :: ::ffff:127.0.0.1 at Wed Jan 03 2024 20:50:51 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Venezuela","presupuesto":50000}}
+Completed: 500 message:  Time response: 56 ms Request ID: [990d63ed-9627-4d90-8226-6f5c588eeb42]
+
+Started GET /api/v1/travels/3 for :: ::ffff:127.0.0.1 at Wed Jan 03 2024 20:50:56 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Venezuela","presupuesto":50000}}
+Completed: 500 message:  Time response: 5 ms Request ID: [c859f8c4-a5ff-40bc-a400-ca0f6b8faf14]
+
+Started GET /api/v1/travels/3 for :: ::ffff:127.0.0.1 at Wed Jan 03 2024 20:54:27 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Venezuela","presupuesto":50000}}
+Completed: 500 message:  Time response: 53 ms Request ID: [d20b14b8-8e5d-452d-ab59-7eddd4e3526c]
+
+Started GET /api/v1/travels/3 for :: ::ffff:127.0.0.1 at Wed Jan 03 2024 20:54:28 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Venezuela","presupuesto":50000}}
+Completed: 500 message:  Time response: 3 ms Request ID: [7dd9b0bd-7175-4c84-9df4-4ca123c8c53b]
+
+Started GET /api/v1/travels/2 for :: ::1 at Wed Jan 03 2024 20:54:37 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 304 message:  Time response: 5 ms Request ID: [9ea73f29-9a1d-4707-bfab-afc9f330360a]
+
+Started GET /api/v1/travels/3 for :: ::1 at Wed Jan 03 2024 20:54:42 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 500 message:  Time response: 3 ms Request ID: [4a326b21-ba7b-465a-aee2-a7cfe9ae830e]
+
+Started GET /api/v1/travels/3 for :: ::1 at Wed Jan 03 2024 20:55:00 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 500 message:  Time response: 45 ms Request ID: [9c9f2d5c-43fd-45bc-9c19-6c6e2ffde34f]
+
+Started GET /api/v1/travels/3 for :: ::1 at Wed Jan 03 2024 20:56:18 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 500 message:  Time response: 59 ms Request ID: [3924a848-0753-4d56-9503-fa3c64f2ab6a]
+
+Started GET /api/v1/travels/3 for :: ::1 at Wed Jan 03 2024 20:56:36 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 500 message:  Time response: 59 ms Request ID: [4f84db97-5b91-4159-b212-ea8606d80f89]
+
+Started GET /api/v1/travels/3 for :: ::1 at Wed Jan 03 2024 20:56:41 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 500 message:  Time response: 3 ms Request ID: [f43417fa-dc61-4ad0-baba-2f66dea9f9f6]
+
+Started GET /api/v1/travels/3 for :: ::1 at Wed Jan 03 2024 20:56:53 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 500 message:  Time response: 165 ms Request ID: [a83f1c6d-c284-4e4e-8ebc-63a4916ec543]
+
+Started GET /api/v1/travels/3 for :: ::1 at Wed Jan 03 2024 20:57:13 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 500 message:  Time response: 64 ms Request ID: [e4a3b9fb-ac76-4ef4-98de-2b72cd401f9c]
+
+Started GET /api/v1/travels/3 for :: ::1 at Wed Jan 03 2024 20:57:29 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 500 message:  Time response: 59 ms Request ID: [51811766-2777-451e-a4b8-3a14095c0bee]
+
+Started POST /api/v1/travels for :: ::ffff:127.0.0.1 at Wed Jan 03 2024 20:58:57 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Aruba","presupuesto":5600}}
+Completed: 201 message:  Time response: 167 ms Request ID: [0824b958-50ad-44f3-a682-ecfe9520d940]
+
+Started GET /api/v1/travels for :: ::ffff:127.0.0.1 at Wed Jan 03 2024 20:59:03 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Aruba","presupuesto":5600}}
+Completed: 200 message:  Time response: 4 ms Request ID: [2062e8f2-fda1-4a69-ac76-49a6279ea823]

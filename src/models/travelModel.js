@@ -20,8 +20,23 @@ const insertTravel = async ({ destino, presupuesto }) => {
     const response = await pool.query(SQLquery);
     return response.rows;
   } catch (error) {
-    console.low(error);
+    console.log(error);
   }
 };
 
-export { getTravels, insertTravel };
+const searchTravelById = async ({ id }) => {
+  const SQLquery = {
+    text: "SELECT * FROM viajes WHERE id = $1",
+  };
+  try {
+    const idTravel = await pool.query(SQLquery, [id]);
+    if (idTravel.rowCount === 0) {
+      throw new Error("Travel not found");
+    }
+    return idTravel.rows;
+  } catch (error) {
+    throw new Error("Error getting Travel by ID" + error.message);
+  }
+};
+
+export { getTravels, insertTravel, searchTravelById };
