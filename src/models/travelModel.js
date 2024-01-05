@@ -39,4 +39,19 @@ const searchTravelById = async ({ id }) => {
   }
 };
 
-export { getTravels, insertTravel, searchTravelById };
+const alterPresupuestoTravelById = async(presupuesto, id) =>{
+  const SQLquery = {
+    text: "UPDATE viajes SET presupuesto = $1 WHERE id = $2",
+    values: [presupuesto, id]
+  }
+
+  try {
+    const response = await pool.query(SQLquery)
+    return response.rows
+  } catch (error) {
+    console.log(error)
+  }
+}
+
+
+export { getTravels, insertTravel, searchTravelById, alterPresupuestoTravelById };
