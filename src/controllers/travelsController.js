@@ -4,6 +4,7 @@ import {
   searchTravelById,
   alterPresupuestoTravelById,
   alterDestinoTravelById,
+  erraseDestinoTravelById,
 } from "../models/travelModel.js";
 
 const getAllTravels = async (req, res) => {
@@ -72,14 +73,15 @@ const changeDestinoTravelById = async (req, res) => {
   const { destino } = req.query;
 
   try {
-      if (!id || isNaN(id) || !destino|| !isNaN(destino)) {
+    if (!id || isNaN(id) || !destino || !isNaN(destino)) {
       throw new Error("Parámetros Invalidos");
-    } 
+    }
     await alterDestinoTravelById(destino, id);
     const changeReresult = await searchTravelById({ id });
     res.status(200).json({
       "Nuevo Destino": destino,
-      [`Resultado de ${req.method} en el Travel con id: ${id} fue`]: changeReresult,
+      [`Resultado de ${req.method} en el Travel con id: ${id} fue`]:
+        changeReresult,
     });
   } catch (error) {
     res.status(500).json({ error: "no se proceso solicitud" + error.message });
@@ -87,10 +89,32 @@ const changeDestinoTravelById = async (req, res) => {
   }
 };
 
+const deleteTravelByID = async (req, res) => {
+  const { id } = req.params;
+  try {
+    if (isNaN(id)) {
+      throw new Error("Error en parametros");
+    }
+    const resultDelete = await erraseDestinoTravelById(id);
+    res.status(200).json({
+      [`${req.method} aplicado a travel con id ${id} se elimino: `]:
+        resultDelete,
+    });
+  } catch (error) {
+    res.status(500).json({
+      error: [`No se proceso solicitud ${req.method} `] + error.message,
+    });
+    console.log("No se proceso la solicitud", error);
+  }
+};
+
+
+
 export {
   getAllTravels,
   addTravel,
   getTravelById,
   changePresupuestoTravelById,
   changeDestinoTravelById,
+  deleteTravelByID,
 };

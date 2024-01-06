@@ -67,10 +67,25 @@ const alterDestinoTravelById = async (destino, id) => {
   }
 };
 
+const erraseDestinoTravelById = async (id) => {
+  const SQLquery = {
+    text: "DELETE FROM viajes WHERE id = $1 RETURNING*",
+    values: [id],
+  };
+
+  try {
+    const response = await pool.query(SQLquery);
+    return response.rows;
+  } catch (error) {
+    console.log(error);
+  }
+};
+
 export {
   getTravels,
   insertTravel,
   searchTravelById,
   alterPresupuestoTravelById,
   alterDestinoTravelById,
+  erraseDestinoTravelById,
 };
