@@ -1,7 +1,7 @@
 import pool from "../../db/connection.js";
 
 const getTravels = async () => {
-  const SQLquery = { text: "SELECT * FROM viajes" };
+  const SQLquery = { text: "SELECT * FROM viajes ORDER BY id DESC" };
   try {
     const response = await pool.query(SQLquery);
     return response.rows;
@@ -39,19 +39,38 @@ const searchTravelById = async ({ id }) => {
   }
 };
 
-const alterPresupuestoTravelById = async(presupuesto, id) =>{
+const alterPresupuestoTravelById = async (presupuesto, id) => {
   const SQLquery = {
     text: "UPDATE viajes SET presupuesto = $1 WHERE id = $2",
-    values: [presupuesto, id]
-  }
+    values: [presupuesto, id],
+  };
 
   try {
-    const response = await pool.query(SQLquery)
-    return response.rows
+    const response = await pool.query(SQLquery);
+    return response.rows;
   } catch (error) {
-    console.log(error)
+    console.log(error);
   }
-}
+};
 
+const alterDestinoTravelById = async (destino, id) => {
+  const SQLquery = {
+    text: "UPDATE viajes SET destino = $1 WHERE id = $2",
+    values: [destino, id],
+  };
 
-export { getTravels, insertTravel, searchTravelById, alterPresupuestoTravelById };
+  try {
+    const response = await pool.query(SQLquery);
+    return response.rows;
+  } catch (error) {
+    console.log(error);
+  }
+};
+
+export {
+  getTravels,
+  insertTravel,
+  searchTravelById,
+  alterPresupuestoTravelById,
+  alterDestinoTravelById,
+};
