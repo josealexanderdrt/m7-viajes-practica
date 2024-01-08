@@ -7,6 +7,20 @@ import {
   erraseDestinoTravelById,
 } from "../models/travelModel.js";
 
+const reportarConsulta = async (req, res, next) => {
+  const parametros = req.params;
+  const url = req.url;
+  console.log(
+    `
+  Hoy ${new Date()}
+  Se ha recibido una consulta en la ruta ${url}
+  con los parámetros:
+  `,
+    parametros
+  );
+  next();
+};
+
 const getAllTravels = async (req, res) => {
   try {
     const travels = await getTravels();
@@ -20,7 +34,7 @@ const getAllTravels = async (req, res) => {
 const addTravel = async (req, res) => {
   try {
     const { travel } = req.body;
-    if (
+    /*   if (
       !travel.destino ||
       typeof travel.destino !== "string" ||
       !travel.presupuesto ||
@@ -28,10 +42,18 @@ const addTravel = async (req, res) => {
       travel.presupuesto <= 0
     ) {
       throw new Error("Faltan datos por ingresar");
-    }
+    } */
     const addedTravel = await insertTravel(travel);
     res.status(201).json({ travel: addedTravel });
   } catch (error) {
+    const { code } = error;
+    console.log("paso por aqui code: ", code);
+    if (code == "23502") {
+      res.status(500).json({ error: "error 23502 sql: " + error.message });
+      return;
+    }
+    // Se puede capturar el error aqui, en models no debe haber captura de errores
+
     res.status(500).json({ error: "no se proceso solicitud" + error.message });
     console.log("No se proceso la solicitud", error);
   }
@@ -43,7 +65,8 @@ const getTravelById = async (req, res) => {
     const result = await searchTravelById({ id });
     res.status(200).json({ travel: result });
   } catch (error) {
-    res.status(500).json({ error: "No se proceso solicitud" });
+    const { code, message } = error;
+    res.status(code).json({ message: message });
     console.log("No se proceso la solicitud");
   }
 };
@@ -63,7 +86,8 @@ const changePresupuestoTravelById = async (req, res) => {
       "Resultado del cambio es: ": changeReresult,
     });
   } catch (error) {
-    res.status(500).json({ error: "no se proceso solicitud" + error.message });
+    const { code, message } = error;
+    res.status(code).json({ error: `${code}`, message: `${message}` });
     console.log("No se proceso la solicitud", error);
   }
 };
@@ -108,8 +132,6 @@ const deleteTravelByID = async (req, res) => {
   }
 };
 
-
-
 export {
   getAllTravels,
   addTravel,
@@ -117,4 +139,5 @@ export {
   changePresupuestoTravelById,
   changeDestinoTravelById,
   deleteTravelByID,
+  reportarConsulta,
 };

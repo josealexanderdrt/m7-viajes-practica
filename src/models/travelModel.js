@@ -2,12 +2,12 @@ import pool from "../../db/connection.js";
 
 const getTravels = async () => {
   const SQLquery = { text: "SELECT * FROM viajes ORDER BY id DESC" };
-  try {
-    const response = await pool.query(SQLquery);
-    return response.rows;
-  } catch (error) {
+  /*   try { */
+  const response = await pool.query(SQLquery);
+  return response.rows;
+  /*  } catch (error) {
     console.log(error);
-  }
+  } */
 };
 
 const insertTravel = async ({ destino, presupuesto }) => {
@@ -16,27 +16,22 @@ const insertTravel = async ({ destino, presupuesto }) => {
     values: [destino, presupuesto],
   };
 
-  try {
-    const response = await pool.query(SQLquery);
-    return response.rows;
-  } catch (error) {
-    console.log(error);
-  }
+  const response = await pool.query(SQLquery);
+  return response.rows;
 };
 
 const searchTravelById = async ({ id }) => {
   const SQLquery = {
     text: "SELECT * FROM viajes WHERE id = $1",
   };
-  try {
-    const idTravel = await pool.query(SQLquery, [id]);
-    if (idTravel.rowCount === 0) {
-      throw new Error("Travel not found");
-    }
-    return idTravel.rows;
-  } catch (error) {
-    throw new Error("Error getting Travel by ID" + error.message);
+  const { rowCount, rows } = await pool.query(SQLquery, [id]);
+  if (rowCount === 0) {
+    throw {
+      code: 404,
+      message: `No se encontro ${id} Travel  en la base de datos, no existe`,
+    };
   }
+  return rows;
 };
 
 const alterPresupuestoTravelById = async (presupuesto, id) => {
@@ -45,12 +40,14 @@ const alterPresupuestoTravelById = async (presupuesto, id) => {
     values: [presupuesto, id],
   };
 
-  try {
-    const response = await pool.query(SQLquery);
-    return response.rows;
-  } catch (error) {
-    console.log(error);
+  const { rowCount, rows } = await pool.query(SQLquery);
+  if (rowCount === 0) {
+    throw {
+      code: 404,
+      message: `No se encontro ${id} Travel  en la base de datos, no existe`,
+    };
   }
+  return rows;
 };
 
 const alterDestinoTravelById = async (destino, id) => {

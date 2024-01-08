@@ -6,18 +6,23 @@ import {
   changePresupuestoTravelById,
   changeDestinoTravelById,
   deleteTravelByID,
+  reportarConsulta,
 } from "../src/controllers/travelsController.js";
 
 const router = express.Router();
 
-router.get("/travels", getAllTravels);
-router.get("/travels/:id", getTravelById);
+router.get("/travels", reportarConsulta, getAllTravels);
+router.get("/travels/:id", reportarConsulta, getTravelById);
 
-router.post("/travels", addTravel);
+router.post("/travels", reportarConsulta, addTravel);
 
-router.put("/travels/:id/presupuesto", changePresupuestoTravelById);
-router.put("/travels/:id/destino", changeDestinoTravelById);
+router.put(
+  "/travels/:id/presupuesto",
+  reportarConsulta,
+  changePresupuestoTravelById
+);
+router.put("/travels/:id/destino", reportarConsulta, changeDestinoTravelById);
 
-router.delete("/travels/:id", deleteTravelByID)
+router.delete("/travels/:id", reportarConsulta, deleteTravelByID);
 
 export default router;
