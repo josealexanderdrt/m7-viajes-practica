@@ -1,0 +1,146 @@
+
+Started GET /api/v1/travels for :: ::ffff:127.0.0.1 at Wed Jan 10 2024 17:32:57 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"s"}}
+Completed: 200 message:  Time response: 144 ms Request ID: [cc7826c7-5613-4b95-a672-494fd4d47ed7]
+
+Started GET /api/v1/travels for :: ::ffff:127.0.0.1 at Wed Jan 10 2024 17:32:57 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"s"}}
+Completed: 200 message:  Time response: 5 ms Request ID: [81c11efa-0a18-4da2-b351-66ec75454bdf]
+
+Started GET /api/v1/travels for :: ::ffff:127.0.0.1 at Wed Jan 10 2024 17:32:57 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"s"}}
+Completed: 200 message:  Time response: 4 ms Request ID: [0ad212c6-6b26-4e0f-a359-a121908f92d3]
+
+Started PUT /api/v1/travels for :: ::ffff:127.0.0.1 at Wed Jan 10 2024 17:37:54 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"s"}}
+Completed: 404 message:  Time response: 9 ms Request ID: [41a2d240-8560-45a4-97a3-11f51ba9c5af]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Wed Jan 10 2024 17:38:48 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"s"}}
+Completed: 200 message:  Time response: 5 ms Request ID: [314325fc-4ae8-48d5-b894-744ca54a50c4]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Wed Jan 10 2024 17:39:51 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"s"}}
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Wed Jan 10 2024 17:40:09 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"s"}}
+Completed: 200 message:  Time response: 8 ms Request ID: [f133d3c0-cf18-41f1-bfb8-a53b2b89ee57]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Wed Jan 10 2024 17:41:25 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"s"}}
+Completed: 200 message:  Time response: 9 ms Request ID: [91c28848-8eda-4207-bdeb-c3c459f1aa26]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Wed Jan 10 2024 17:41:59 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"s"}}
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Wed Jan 10 2024 17:42:56 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"s"}}
+Completed: 200 message:  Time response: 11 ms Request ID: [c154ab87-bee8-4472-a851-a4b3c79ee253]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Wed Jan 10 2024 17:43:13 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"s"}}
+Completed: 200 message:  Time response: 9 ms Request ID: [98c8098f-1926-483f-af04-c0bfdf468be6]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Wed Jan 10 2024 17:43:38 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"s"}}
+Completed: 200 message:  Time response: 7 ms Request ID: [e50ecdc3-ca93-4940-a039-4819e60e7b8e]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Wed Jan 10 2024 17:45:20 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"s"}}
+Completed: 200 message:  Time response: 11 ms Request ID: [30b13907-9407-44b9-b94d-a04dbd531303]
+
+Started PUT /api/v1/travels/1?name=alex for :: ::ffff:127.0.0.1 at Wed Jan 10 2024 17:46:21 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"s"}}
+Completed: 200 message:  Time response: 3 ms Request ID: [eca1d65f-126a-466b-acc8-40b4371a2ff9]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Wed Jan 10 2024 17:46:39 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"s"}}
+Completed: 200 message:  Time response: 3 ms Request ID: [3162a26f-37b6-42f8-bac3-b081b84590d1]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Wed Jan 10 2024 17:47:45 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"destino":"Turmero"}
+Completed: 200 message:  Time response: 2 ms Request ID: [abfe429a-8651-4b16-b623-697a684a19bf]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Wed Jan 10 2024 17:48:04 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"destino":"Turmero"}
+Completed: 200 message:  Time response: 12 ms Request ID: [00daa14f-b8ef-4ced-ba0a-f7e9c0d4e7af]
+
+Started GET /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Wed Jan 10 2024 18:05:45 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"destino":"Turmero"}
+Completed: 200 message:  Time response: 63 ms Request ID: [344a3787-f849-4177-8fad-122eb1036753]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Wed Jan 10 2024 18:06:42 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"destino":"Turmero","presupuesto":2000}
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Wed Jan 10 2024 18:07:37 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Turmero","presupuesto":2000}}
+Started GET /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Wed Jan 10 2024 18:09:22 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Turmero","presupuesto":2000}}
+Completed: 200 message:  Time response: 64 ms Request ID: [2ed7446f-21c0-49f2-a3c6-aec92f2c4342]
+
+Started GET /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Wed Jan 10 2024 18:12:02 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Turmero","presupuesto":2000}}
+Completed: 200 message:  Time response: 60 ms Request ID: [a7357b27-bf6c-4557-81fa-60166d4daceb]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Wed Jan 10 2024 18:12:06 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Turmero","presupuesto":2000}}
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Wed Jan 10 2024 18:12:41 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Turmero","presupuesto":2000}}
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Wed Jan 10 2024 18:12:58 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Turmero","presupuesto":2000}}
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Wed Jan 10 2024 18:13:27 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"destino":"Turmero","presupuesto":2000}
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Wed Jan 10 2024 18:14:20 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"destino":"Turmero","presupuesto":2000}
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Wed Jan 10 2024 18:18:39 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"destino":"Turmero","presupuesto":2000}
+Started GET /api/v1/travels for :: ::ffff:127.0.0.1 at Wed Jan 10 2024 18:20:49 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Turmero","presupuesto":2000}}
+Completed: 200 message:  Time response: 182 ms Request ID: [1837d0c0-5dbe-417b-8b20-c500ceccf57a]
+
+Started GET /api/v1/travels for :: ::ffff:127.0.0.1 at Wed Jan 10 2024 18:20:50 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Turmero","presupuesto":2000}}
+Completed: 200 message:  Time response: 4 ms Request ID: [abdbca39-b06a-4755-8ae1-1d024dc8c178]
+
+Started PUT /api/v1/travels for :: ::ffff:127.0.0.1 at Wed Jan 10 2024 18:20:53 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Turmero","presupuesto":2000}}
+Completed: 404 message:  Time response: 2 ms Request ID: [7c6acbbd-ae9b-42b2-b4c4-0dc85b31bce6]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Wed Jan 10 2024 18:21:08 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Turmero","presupuesto":2000}}
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Wed Jan 10 2024 18:23:02 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Turmero","presupuesto":2000}}
+Started GET /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Wed Jan 10 2024 18:47:56 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"destino":"Turmero","presupuesto":2000}
+Completed: 200 message:  Time response: 69 ms Request ID: [a420dc96-e788-4f11-9317-fb41d29cac0b]
+
+Started GET /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Wed Jan 10 2024 18:47:56 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"destino":"Turmero","presupuesto":2000}
+Completed: 200 message:  Time response: 4 ms Request ID: [87420a4c-2bbd-4190-8fa1-0eb6a0c70665]
+
+Started GET /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Wed Jan 10 2024 18:47:56 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"destino":"Turmero","presupuesto":2000}
+Completed: 200 message:  Time response: 3 ms Request ID: [d1445a59-2dde-4215-974f-836a719460c7]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Wed Jan 10 2024 18:48:09 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"destino":"Turmero","presupuesto":2000}
+Completed: 200 message:  Time response: 48 ms Request ID: [0ccf4658-e894-4a2c-8e29-1081ebea65c3]
+
+Started GET /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Wed Jan 10 2024 18:48:14 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"destino":"Turmero","presupuesto":2000}
+Completed: 200 message:  Time response: 4 ms Request ID: [170611e4-58a3-46b3-bac0-853f4a378b00]
+
+Started GET /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Wed Jan 10 2024 18:48:30 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"destino":"Turmero","presupuesto":2000}
+Completed: 200 message:  Time response: 60 ms Request ID: [c8444b11-c198-4e93-8682-14761c35a56d]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Wed Jan 10 2024 18:48:36 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"destino":"Turmerñño","presupuesto":2000}
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Wed Jan 10 2024 18:48:45 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"destino":"Turmerñño","presupuesto":2000}
+Completed: 200 message:  Time response: 60 ms Request ID: [e05088ed-750d-48a6-ae59-2a55395f8fb2]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Wed Jan 10 2024 18:48:51 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"destino":"Turmero","presupuesto":2000}
+Completed: 200 message:  Time response: 52 ms Request ID: [9c4e1d0d-26d0-456e-bc0c-9d1e78c52c74]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Wed Jan 10 2024 18:48:56 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"destino":"Turmero","presupuesto":300000}
+Completed: 200 message:  Time response: 52 ms Request ID: [4c13f648-08ee-442d-97bb-9ea21e6c749a]

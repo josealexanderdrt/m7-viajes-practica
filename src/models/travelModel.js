@@ -64,6 +64,15 @@ const alterDestinoTravelById = async (destino, id) => {
   }
 };
 
+const updateTravel = async (id,  {destino, presupuesto} ) => {
+  const SQLquery = {
+    text: "UPDATE viajes SET destino =$2, presupuesto=$3 WHERE id = $1 RETURNING *",
+    values: [id, destino, presupuesto],
+  };
+  const response = await pool.query(SQLquery);
+  return response.rows;
+};
+
 const erraseDestinoTravelById = async (id) => {
   const SQLquery = {
     text: "DELETE FROM viajes WHERE id = $1 RETURNING*",
@@ -85,4 +94,5 @@ export {
   alterPresupuestoTravelById,
   alterDestinoTravelById,
   erraseDestinoTravelById,
+  updateTravel,
 };

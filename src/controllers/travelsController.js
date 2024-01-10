@@ -5,6 +5,7 @@ import {
   alterPresupuestoTravelById,
   alterDestinoTravelById,
   erraseDestinoTravelById,
+  updateTravel,
 } from "../models/travelModel.js";
 
 const reportarConsulta = async (req, res, next) => {
@@ -113,6 +114,17 @@ const changeDestinoTravelById = async (req, res) => {
   }
 };
 
+const updateTravels = async (req, res) => {
+  try {
+    const { id } = req.params;
+    const { destino, presupuesto } = req.body;
+    const travel = await updateTravel(id, {destino, presupuesto});
+    res.status(200).json({ travel: travel });
+  } catch (error) {
+    console.log(error);
+  }
+};
+
 const deleteTravelByID = async (req, res) => {
   const { id } = req.params;
   try {
@@ -140,4 +152,5 @@ export {
   changeDestinoTravelById,
   deleteTravelByID,
   reportarConsulta,
+  updateTravels,
 };
