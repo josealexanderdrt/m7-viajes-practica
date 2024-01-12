@@ -117,9 +117,9 @@ const changeDestinoTravelById = async (req, res) => {
 const updateTravels = async (req, res) => {
   try {
     const { id } = req.params;
-    const { destino, presupuesto } = req.body;
+    const { travel } = req.body;
     const allowedProperties = ["destino", "presupuesto"];
-    const unwantedProperties = Object.keys(req.body).filter(
+    const unwantedProperties = Object.keys(travel).filter(
       (property) => !allowedProperties.includes(property)
     );
     if (unwantedProperties.length > 0) {
@@ -127,15 +127,14 @@ const updateTravels = async (req, res) => {
         `Propiedades no permitidas: ${unwantedProperties.join(" , ")}`
       );
     }
-    const travel = await updateTravel(id, destino, presupuesto);
-    res.status(200).json(travel);
+    const travel_update = await updateTravel(id, travel.destino, travel.presupuesto);
+    res.status(200).json({travel: travel_update});
   } catch (error) {
     res
       .status(500)
       .json({
         error:
-          `Estas agregando una propiedad que no esta permitida ${req.method} ` +
-          error.message,
+          `Estas agregando una propiedad que no esta permitida ${error.message} `
       });
     console.log(error);
   }

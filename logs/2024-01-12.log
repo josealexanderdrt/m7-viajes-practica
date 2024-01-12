@@ -122,3 +122,55 @@ Completed: 200 message:  Time response: 194 ms Request ID: [bec34bb3-2645-4243-a
 Started GET /api/v1/travels/89 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 21:34:03 GMT-0300 (hora de verano de Chile)
   Parameters in body: {"presupuesto":20033555,"otros gastos":19}
 Completed: 404 message:  Time response: 4 ms Request ID: [45ee2104-5167-4f8f-9b58-7588c53bb5c7]
+
+Started GET /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Fri Jan 12 2024 20:09:27 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":20033555,"otros gastos":19}
+Completed: 200 message:  Time response: 133 ms Request ID: [0ca85da4-08b6-426c-954d-42444b6bf3f3]
+
+Started GET /api/v1/travels for :: ::ffff:127.0.0.1 at Fri Jan 12 2024 20:10:35 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":20033555,"otros gastos":19}
+Completed: 200 message:  Time response: 61 ms Request ID: [336ffeb0-98be-4d6f-b2c9-934793958cef]
+
+Started GET /api/v1/travels/2 for :: ::ffff:127.0.0.1 at Fri Jan 12 2024 20:10:46 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":20033555,"otros gastos":19}
+Completed: 200 message:  Time response: 47 ms Request ID: [7fef0edf-a8df-4797-aa59-d743185afe10]
+
+Started PUT /api/v1/travels/2 for :: ::ffff:127.0.0.1 at Fri Jan 12 2024 20:11:12 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":15090}
+Completed: 200 message:  Time response: 59 ms Request ID: [06339f7c-a50c-4c52-ade6-da3daaa45700]
+
+Started POST /api/v1/travels for :: ::ffff:127.0.0.1 at Fri Jan 12 2024 20:22:06 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":15090}
+Completed: 500 message:  Time response: 9 ms Request ID: [c20ecb33-ccb8-4ff9-a4c8-0d2826aea6b5]
+
+Started POST /api/v1/travels for :: ::ffff:127.0.0.1 at Fri Jan 12 2024 20:23:06 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Santa Marta","presupuesto":15090}}
+Completed: 201 message:  Time response: 107 ms Request ID: [f86a723d-7ea5-43af-9fe9-142e16e38d6b]
+
+Started GET /api/v1/travels for :: ::ffff:127.0.0.1 at Fri Jan 12 2024 20:23:10 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Santa Marta","presupuesto":15090}}
+Completed: 200 message:  Time response: 6 ms Request ID: [49c08915-655e-40c6-bace-bfb5c65e5c18]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Fri Jan 12 2024 20:24:00 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"presupuesto":150}}
+Completed: 500 message:  Time response: 5 ms Request ID: [477a2ee4-182d-452e-aee6-9c6e740340d6]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Fri Jan 12 2024 20:26:42 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"presupuesto":150}}
+Completed: 500 message:  Time response: 9 ms Request ID: [b13e175f-be18-4afe-9a29-d5301ff66e83]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Fri Jan 12 2024 20:30:48 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"presupuesto":150}}
+Completed: 200 message:  Time response: 223 ms Request ID: [ed1b8665-74f8-4f62-811e-09bfe066a03f]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Fri Jan 12 2024 20:31:31 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"presupuesto":150,"camisa":22}}
+Completed: 500 message:  Time response: 6 ms Request ID: [e4ecd2b2-7685-4965-9ee8-17388b539678]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Fri Jan 12 2024 20:32:48 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"presupuesto":150,"camisa":22}}
+Completed: 500 message:  Time response: 12 ms Request ID: [8b47ab0a-3ad1-42ea-9902-666df62ac199]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Fri Jan 12 2024 20:37:13 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Rosario de Paya"}}
+Completed: 200 message:  Time response: 114 ms Request ID: [968c131c-dc58-4fb1-9f91-dc3b319977df]
