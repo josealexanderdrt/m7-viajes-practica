@@ -1,0 +1,202 @@
+
+Started GET /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 19:48:31 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"destino":"Turmero","presupuesto":300000}
+Completed: 200 message:  Time response: 106 ms Request ID: [06087cbc-de10-478d-be8d-f0205cf6c0a4]
+
+Started GET /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 19:48:31 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"destino":"Turmero","presupuesto":300000}
+Completed: 200 message:  Time response: 4 ms Request ID: [e5d19069-cc1e-4f49-afe6-e0594a73ce56]
+
+Started GET /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 19:48:32 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"destino":"Turmero","presupuesto":300000}
+Completed: 200 message:  Time response: 3 ms Request ID: [56f265a8-da92-4873-8ed9-40b6d65d9ae3]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 19:54:13 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"destino":"Alaska","presupuesto":1000}
+Completed: 200 message:  Time response: 79 ms Request ID: [ba0b2ec6-a5b1-4304-9f1b-d51a519eb222]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 19:58:30 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"destino":"Alaskka","presupuesto":1000}
+Completed: 200 message:  Time response: 59 ms Request ID: [0016d9fa-d2b9-4d27-aa90-892c700467dc]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 19:58:40 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"destino":"Maracay","presupuesto":1000}
+Completed: 200 message:  Time response: 95 ms Request ID: [08d4bfc5-b055-49e7-bfe2-da463697cb4b]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 20:00:18 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"destino":"Maracay","presupuesto":1000,"djjdj":20}
+Completed: 200 message:  Time response: 91 ms Request ID: [c5d17fd8-0dab-4e76-9d32-3b9fd3958863]
+
+Started GET /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 20:00:27 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"destino":"Maracay","presupuesto":1000,"djjdj":20}
+Completed: 200 message:  Time response: 7 ms Request ID: [8e0a9eff-f862-41bb-b809-c64a32cec331]
+
+Started GET /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 20:00:30 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"destino":"Maracay","presupuesto":1000,"djjdj":20}
+Completed: 200 message:  Time response: 4 ms Request ID: [803636c4-1f58-4140-b365-20cb5b151648]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 20:00:43 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"destino":"Maracay","presupuesto":1000,"djjdj":20}
+Completed: 200 message:  Time response: 109 ms Request ID: [a2b04be7-0046-477f-9cf7-aa601f1e8daf]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 20:00:47 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"destino":"Maracay","presupuesto":1000,"djjdj":20}
+Completed: 200 message:  Time response: 51 ms Request ID: [867b38a8-6258-4a28-94d8-8cce0ab15880]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 20:00:54 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"destino":"Maracay","presupuesto":1000,"djjdj":20}
+Completed: 200 message:  Time response: 52 ms Request ID: [75f2a1ed-c696-46bd-a9c0-87f346e5217a]
+
+Started GET /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 20:01:00 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"destino":"Maracay","presupuesto":1000,"djjdj":20}
+Completed: 200 message:  Time response: 7 ms Request ID: [2ea789c3-2115-4e0c-ae3a-46d86e75eb9d]
+
+Started GET /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 20:01:04 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"destino":"Maracasy","presupuesto":1000,"djjdj":20}
+Completed: 200 message:  Time response: 4 ms Request ID: [6d057453-103e-4cb0-a369-b11fcfe3291a]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 20:01:11 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"destino":"Maracsasy","presupuesto":1000,"djjdj":20}
+Completed: 200 message:  Time response: 3 ms Request ID: [a7708f84-6063-4a0b-a2ed-05c4a64c312b]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 20:01:19 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"destino":"Maracay","presupuesto":1000,"djjdj":20}
+Completed: 200 message:  Time response: 51 ms Request ID: [0ab42340-bf67-47e3-928a-44dafce5c71e]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 20:01:28 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"destino":"Maracay","presupuesto":1000,"djjdj":20}
+Completed: 200 message:  Time response: 51 ms Request ID: [01f95bf7-b67d-4587-aa27-55aa2aa5a017]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 20:06:17 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"destino":"Maracay","presupuesto":1000,"djjdj":20}
+Completed: 200 message:  Time response: 105 ms Request ID: [1527815b-26d0-4ad6-82bb-ff7f9fbe8dc0]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 20:06:57 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"destino":"Maracay","presupuestio":1000,"djjdj":20}
+Started GET /api/v1/travels for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 20:09:05 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"destino":"Maracay","presupuesto":1000}
+Completed: 200 message:  Time response: 118 ms Request ID: [ccd482e5-1223-41a0-80d3-9f5ced44f34b]
+
+Started PUT /api/v1/travels for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 20:09:24 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"destino":"Maracay"}
+Completed: 404 message:  Time response: 3 ms Request ID: [61da43ff-12b4-4c8e-8112-83d04ede732f]
+
+Started PUT /api/v1/travels for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 20:09:36 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"destino":"Maracay","presupuesto":1000}
+Completed: 404 message:  Time response: 2 ms Request ID: [b9ea0c30-7739-41a6-969d-f0919ea38800]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 20:09:48 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"destino":"Maracay"}
+Started GET /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 20:10:32 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"destino":"Maracay","presupuesto":1000}
+Completed: 200 message:  Time response: 60 ms Request ID: [5c13a442-c616-4192-89da-0afb0b3e9f83]
+
+Started POST /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 20:11:12 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Maracay","presupuesto":1000}}
+Completed: 404 message:  Time response: 4 ms Request ID: [db7ca21b-84e3-4255-ba7d-6914d733729a]
+
+Started POST /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 20:11:27 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"destino":"Maracay","presupuesto":1000}
+Completed: 404 message:  Time response: 2 ms Request ID: [0c605371-7f91-41e7-89cf-ad1eea232635]
+
+Started POST /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 20:11:34 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"destino":"Maracay","presupuesto":1000}
+Completed: 404 message:  Time response: 2 ms Request ID: [b2680224-4ecd-4fa4-8925-9ee93609ef2c]
+
+Started POST /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 20:11:35 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"destino":"Maracay","presupuesto":1000}
+Completed: 404 message:  Time response: 2 ms Request ID: [7dd2bc10-ccf2-4c04-ace4-90a0b773567a]
+
+Started POST /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 20:11:35 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"destino":"Maracay","presupuesto":1000}
+Completed: 404 message:  Time response: 3 ms Request ID: [024e5549-0519-44c6-9481-21531116c9ba]
+
+Started POST /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 20:11:35 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"destino":"Maracay","presupuesto":1000}
+Completed: 404 message:  Time response: 2 ms Request ID: [cf7a155a-4eb7-4b1c-b3c7-d30cdd56ea84]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 20:11:46 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Maracay","presupuesto":1000}}
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 20:12:03 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"destino":"Maracay","presupuesto":1000}
+Completed: 200 message:  Time response: 109 ms Request ID: [09df4a3e-7682-4f30-8c41-5dd9605caae1]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 20:17:31 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"destino":"Maracay","presupuesto":1000}
+Completed: 200 message:  Time response: 61 ms Request ID: [0ce7d10b-ba85-42fc-a7d1-8725b641b019]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 20:17:35 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"destino":"Maracay","presupuesto":10090}
+Completed: 200 message:  Time response: 52 ms Request ID: [5b429bda-864e-48f4-9cc6-2df26436c57a]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 20:17:58 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"destino":"CaguaCaguaCAGUAAA"}
+Completed: 200 message:  Time response: 114 ms Request ID: [91cbc694-9628-477f-9a7f-a6540e838383]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 20:18:08 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"destino":"Mariara"}
+Completed: 200 message:  Time response: 50 ms Request ID: [69408752-c502-4d22-8f6f-491d41befd96]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 20:18:35 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":20}
+Completed: 200 message:  Time response: 210 ms Request ID: [6855df09-6099-4264-a0c9-43d522ddde46]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 20:22:33 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"comida":"arepa"}
+Completed: 200 message:  Time response: 213 ms Request ID: [94c9c8bf-a43a-4231-81e9-255528b7bd34]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 20:22:37 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"comida":"arepa"}
+Completed: 200 message:  Time response: 32 ms Request ID: [97174c14-f50f-45de-a8d9-3d79e354c124]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 20:23:44 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":20,"comida":"arepa"}
+Completed: 200 message:  Time response: 105 ms Request ID: [cd147bdb-fc5d-47ef-b008-f748d80b5eec]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 20:24:44 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":20,"comida":"arepa"}
+Completed: 200 message:  Time response: 116 ms Request ID: [30913470-fe0c-4085-99f4-84b45db8da73]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 20:28:52 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":20,"comida":"arepa"}
+Completed: 200 message:  Time response: 121 ms Request ID: [bc1fcd6f-cd9b-467b-83af-94feb7a6ca4e]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 20:36:32 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":20,"comida":"arepa"}
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 20:42:57 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":20,"comida":"arepa","facturas":"canciones"}
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 20:43:32 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":20,"comida":"arepa","facturas":"canciones"}
+Completed: 500 message:  Time response: 8 ms Request ID: [bfa6e8e4-c63c-4ac3-88d0-073893470dff]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 20:44:39 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":20,"comida":"arepa","facturas":"canciones"}
+Completed: 500 message:  Time response: 9 ms Request ID: [0a08b388-c455-46bc-bd30-a3ddfdcfe99c]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 20:45:04 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":20,"comida":"arepa","facturas":"canciones"}
+Completed: 500 message:  Time response: 11 ms Request ID: [36a28368-8513-4516-b4be-4c8e61e4e296]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 20:45:23 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":20,"comida":"arepa","facturas":"canciones"}
+Completed: 500 message:  Time response: 11 ms Request ID: [1d0a64ca-9d3a-45e1-a0d1-1f67ef9337aa]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 20:47:31 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":20,"comida":"arepa","facturas":"canciones"}
+Completed: 500 message:  Time response: 12 ms Request ID: [ffc551b6-60a2-41f7-8038-29bb124fe968]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 20:48:08 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":20,"comida":"arepa","facturas":"canciones"}
+Completed: 500 message:  Time response: 12 ms Request ID: [f249762f-27c2-4795-b497-37149a104764]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 20:48:35 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":20,"comida":"arepa","facturas":"canciones"}
+Completed: 500 message:  Time response: 11 ms Request ID: [ccd5b012-65e0-4114-bf4f-21da4ff0a73d]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 20:49:28 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":20,"comida":"arepa","facturas":"canciones"}
+Completed: 500 message:  Time response: 9 ms Request ID: [678865d8-ddf0-48a8-9ac6-2d5314d5b25c]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 20:49:33 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":20,"comida":"arepa","facturas":"canciones"}
+Completed: 500 message:  Time response: 3 ms Request ID: [5ca828ac-3c64-42fc-96fa-c860b6d6a7df]

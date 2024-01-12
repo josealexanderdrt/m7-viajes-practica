@@ -1,0 +1,124 @@
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 21:15:07 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":20,"comida":"arepa","facturas":"canciones"}
+Completed: 500 message:  Time response: 11 ms Request ID: [1cd857f6-d30e-43ca-a1f1-127eeb0852b3]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 21:15:40 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":20,"facturas":"canciones"}
+Completed: 500 message:  Time response: 5 ms Request ID: [8ad94c4e-4f48-48d3-87bb-6017fe267f5e]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 21:16:03 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":20,"facturas":"canciones"}
+Completed: 500 message:  Time response: 72 ms Request ID: [6e2f7740-64cd-4010-bef0-e28f9d8fc402]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 21:17:35 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":20,"facturas":"canciones"}
+Completed: 500 message:  Time response: 12 ms Request ID: [1c1060ed-3d58-4d42-928d-cf27c240f8bf]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 21:17:48 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":20,"facturas":"canciones"}
+Completed: 500 message:  Time response: 10 ms Request ID: [750f67c8-7557-4368-87a2-e77e01ba7631]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 21:18:33 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":20,"facturas":"canciones"}
+Completed: 500 message:  Time response: 10 ms Request ID: [79b021fc-ad7b-4a87-a99e-2c7dfb79dfd1]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 21:24:41 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":20}
+Completed: 200 message:  Time response: 106 ms Request ID: [114d7881-d7ef-46a6-80bc-003f56724b4a]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 21:24:58 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":2000}
+Completed: 200 message:  Time response: 115 ms Request ID: [657d4832-a237-402c-b72b-c6e53fd3f05d]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 21:25:45 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":2000}
+Completed: 200 message:  Time response: 62 ms Request ID: [93bce5c3-1350-4454-be7a-68c714874336]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 21:25:58 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":2000}
+Completed: 200 message:  Time response: 97 ms Request ID: [dc3f8792-a630-43a5-aeb0-a71eca0a4b0c]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 21:26:10 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":2000}
+Completed: 200 message:  Time response: 117 ms Request ID: [7a2468eb-4c0c-44ca-8661-3553f1ca40f0]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 21:26:13 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":2000}
+Completed: 200 message:  Time response: 5 ms Request ID: [0fe9a356-bfa5-4854-b4af-98d79985efb3]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 21:26:15 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":2000}
+Completed: 200 message:  Time response: 50 ms Request ID: [fb115aee-2b55-41de-977e-a7e394c66c83]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 21:26:40 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":2000}
+Completed: 200 message:  Time response: 119 ms Request ID: [490e0275-5ebf-4b8c-a9f3-d81022778133]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 21:27:24 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":2000}
+Completed: 200 message:  Time response: 110 ms Request ID: [bd8a4218-ed0f-476c-bebb-104e8d855985]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 21:27:42 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":2000}
+Completed: 200 message:  Time response: 63 ms Request ID: [f1d08916-0461-4b08-a75e-753abb582a9e]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 21:29:09 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":2000}
+Completed: 200 message:  Time response: 198 ms Request ID: [edc1aee0-55a3-4fac-8f92-c3121305a85e]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 21:29:26 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":2000}
+Completed: 200 message:  Time response: 121 ms Request ID: [360964ab-c8bf-4344-bbd7-89c26524e9db]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 21:29:39 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":2000}
+Completed: 200 message:  Time response: 120 ms Request ID: [38514986-70f3-4b1c-b9fa-52c12699cfc8]
+
+Started GET /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 21:29:51 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":2000}
+Completed: 200 message:  Time response: 44 ms Request ID: [a01e4975-6985-48f0-90a0-84cb7cfac494]
+
+Started GET /api/v1/travels for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 21:30:25 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":2000}
+Completed: 200 message:  Time response: 62 ms Request ID: [8b512707-6a4e-4bd4-b3c0-8205bccdcfd0]
+
+Started GET /api/v1/travels for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 21:30:40 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":2000}
+Completed: 200 message:  Time response: 60 ms Request ID: [7895750a-45e9-4130-8d3e-6f2c93f0a9a8]
+
+Started PUT /api/v1/travels for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 21:31:13 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":20033555}
+Completed: 404 message:  Time response: 4 ms Request ID: [be47104a-4960-43d9-ad0e-5f0118968eb7]
+
+Started PUT /api/v1/travels/2 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 21:31:20 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":20033555}
+Completed: 200 message:  Time response: 96 ms Request ID: [7d1f83bc-29db-4eda-8ea0-ef5d734efca3]
+
+Started PUT /api/v1/travels/2 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 21:31:40 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":20033555}
+Completed: 200 message:  Time response: 64 ms Request ID: [6c194e14-b23e-4283-bd56-7a33c66d2215]
+
+Started PUT /api/v1/travels/2 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 21:31:48 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":20033555}
+Completed: 200 message:  Time response: 117 ms Request ID: [bf37e78d-3de7-4c99-b0ff-e2cc1573df9f]
+
+Started GET /api/v1/travels/2 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 21:31:55 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":20033555}
+Completed: 200 message:  Time response: 6 ms Request ID: [65a3e1a4-6555-409d-9249-43790cea87b7]
+
+Started PUT /api/v1/travels/2 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 21:32:15 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":20033555,"otrosgastos":19}
+Completed: 500 message:  Time response: 6 ms Request ID: [cca4eb6f-262b-488e-8687-992a6c9c1918]
+
+Started PUT /api/v1/travels/2 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 21:32:25 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":20033555,"otros gastos":19}
+Completed: 500 message:  Time response: 4 ms Request ID: [5015eea9-029e-4c82-b14b-7f2ebadb85a3]
+
+Started GET /api/v1/travels/2 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 21:33:58 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":20033555,"otros gastos":19}
+Completed: 200 message:  Time response: 194 ms Request ID: [bec34bb3-2645-4243-a443-09ab49b9941e]
+
+Started GET /api/v1/travels/89 for :: ::ffff:127.0.0.1 at Thu Jan 11 2024 21:34:03 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":20033555,"otros gastos":19}
+Completed: 404 message:  Time response: 4 ms Request ID: [45ee2104-5167-4f8f-9b58-7588c53bb5c7]

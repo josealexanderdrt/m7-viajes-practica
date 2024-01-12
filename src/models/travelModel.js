@@ -2,12 +2,8 @@ import pool from "../../db/connection.js";
 
 const getTravels = async () => {
   const SQLquery = { text: "SELECT * FROM viajes ORDER BY id DESC" };
-  /*   try { */
   const response = await pool.query(SQLquery);
   return response.rows;
-  /*  } catch (error) {
-    console.log(error);
-  } */
 };
 
 const insertTravel = async ({ destino, presupuesto }) => {
@@ -64,13 +60,14 @@ const alterDestinoTravelById = async (destino, id) => {
   }
 };
 
-const updateTravel = async (id,  {destino, presupuesto} ) => {
+const updateTravel = async (id,  destino, presupuesto) => {
   const SQLquery = {
-    text: "UPDATE viajes SET destino =$2, presupuesto=$3 WHERE id = $1 RETURNING *",
+    text: "UPDATE viajes SET destino = COALESCE($2, destino), presupuesto= COALESCE($3, presupuesto) WHERE id = $1 RETURNING *",
     values: [id, destino, presupuesto],
   };
   const response = await pool.query(SQLquery);
-  return response.rows;
+  console.log(response.rows[0])
+  return response.rows[0];
 };
 
 const erraseDestinoTravelById = async (id) => {

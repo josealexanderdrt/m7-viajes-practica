@@ -118,9 +118,25 @@ const updateTravels = async (req, res) => {
   try {
     const { id } = req.params;
     const { destino, presupuesto } = req.body;
-    const travel = await updateTravel(id, {destino, presupuesto});
-    res.status(200).json({ travel: travel });
+    const allowedProperties = ["destino", "presupuesto"];
+    const unwantedProperties = Object.keys(req.body).filter(
+      (property) => !allowedProperties.includes(property)
+    );
+    if (unwantedProperties.length > 0) {
+      throw new Error(
+        `Propiedades no permitidas: ${unwantedProperties.join(" , ")}`
+      );
+    }
+    const travel = await updateTravel(id, destino, presupuesto);
+    res.status(200).json(travel);
   } catch (error) {
+    res
+      .status(500)
+      .json({
+        error:
+          `Estas agregando una propiedad que no esta permitida ${req.method} ` +
+          error.message,
+      });
     console.log(error);
   }
 };
