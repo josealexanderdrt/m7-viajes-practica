@@ -4,7 +4,7 @@ import {
   searchTravelById,
   alterPresupuestoTravelById,
   alterDestinoTravelById,
-  erraseDestinoTravelById,
+  eraseDestinoTravelById,
   updateTravel,
 } from "../models/travelModel.js";
 
@@ -127,35 +127,38 @@ const updateTravels = async (req, res) => {
         `Propiedades no permitidas: ${unwantedProperties.join(" , ")}`
       );
     }
-    const travel_update = await updateTravel(id, travel.destino, travel.presupuesto);
-    res.status(200).json({travel: travel_update});
+    const travel_update = await updateTravel(
+      id,
+      travel.destino,
+      travel.presupuesto
+    );
+    res.status(200).json({ travel: travel_update });
   } catch (error) {
-    res
-      .status(500)
-      .json({
-        error:
-          `Estas agregando una propiedad que no esta permitida ${error.message} `
-      });
+    res.status(500).json({
+      error: `Estas agregando una propiedad que no esta permitida ${error.message} `,
+    });
     console.log(error);
   }
 };
 
 const deleteTravelByID = async (req, res) => {
-  const { id } = req.params;
   try {
+    const { id } = req.params;
     if (isNaN(id)) {
-      throw new Error("Error en parametros");
+      return res
+        .status(400)
+        .json({ menssage: "error de parametos el ID debe ser un número" });
     }
-    const resultDelete = await erraseDestinoTravelById(id);
+    const resultDelete = await eraseDestinoTravelById(id);
+    if (resultDelete === 0) {
+      return res.status(404).json({ message: "No existe el registro" });
+    }
     res.status(200).json({
-      [`${req.method} aplicado a travel con id ${id} se elimino: `]:
-        resultDelete,
+      message: "Registro eliminado con exito",
     });
   } catch (error) {
-    res.status(500).json({
-      error: [`No se proceso solicitud ${req.method} `] + error.message,
-    });
-    console.log("No se proceso la solicitud", error);
+    console.error("No se proceso la solicitud ", error);
+    res.status(500).json({ error: "Error interno del servidor" });
   }
 };
 

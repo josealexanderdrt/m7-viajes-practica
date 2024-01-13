@@ -1,0 +1,36 @@
+
+Started GET /api/v1/travels/14 for :: ::ffff:127.0.0.1 at Fri Jan 12 2024 21:06:42 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Rosario de Paya"}}
+Completed: 404 message:  Time response: 65 ms Request ID: [82f3277a-7c09-470d-831b-31f44c8308cf]
+
+Started GET /api/v1/travels for :: ::ffff:127.0.0.1 at Fri Jan 12 2024 21:06:45 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Rosario de Paya"}}
+Completed: 200 message:  Time response: 5 ms Request ID: [639136fd-63dc-4c7e-b9b0-e96ebd82c0cf]
+
+Started GET /api/v1/travels/5 for :: ::ffff:127.0.0.1 at Fri Jan 12 2024 21:06:54 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Rosario de Paya"}}
+Completed: 200 message:  Time response: 52 ms Request ID: [324fae07-938a-4cfa-b73d-a99c900c0104]
+
+Started GET /api/v1/travels/5 for :: ::ffff:127.0.0.1 at Fri Jan 12 2024 21:07:27 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Rosario de Paya"}}
+Completed: 200 message:  Time response: 62 ms Request ID: [9f4310fb-dd77-4459-80b4-59784b6717ed]
+
+Started DELETE /api/v1/travels/5 for :: ::ffff:127.0.0.1 at Fri Jan 12 2024 21:07:37 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Rosario de Paya"}}
+Completed: 200 message:  Time response: 95 ms Request ID: [db25020d-f9df-408a-8479-b790a76c1ced]
+
+Started DELETE /api/v1/travels/a for :: ::ffff:127.0.0.1 at Fri Jan 12 2024 21:08:00 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Rosario de Paya"}}
+Completed: 400 message:  Time response: 4 ms Request ID: [d442c6b5-a30c-4bc4-8708-cf44940ace7b]
+
+Started DELETE /api/v1/travels/466 for :: ::ffff:127.0.0.1 at Fri Jan 12 2024 21:08:07 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Rosario de Paya"}}
+Completed: 400 message:  Time response: 41 ms Request ID: [58d663a4-907f-4e5a-a0e6-90e29db2554b]
+
+Started GET /api/v1/travels/466 for :: ::ffff:127.0.0.1 at Fri Jan 12 2024 21:08:15 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Rosario de Paya"}}
+Completed: 404 message:  Time response: 5 ms Request ID: [03a524ca-e44d-4b86-a67b-0f940cb0086c]
+
+Started GET /api/v1/travels for :: ::ffff:127.0.0.1 at Fri Jan 12 2024 21:08:20 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Rosario de Paya"}}
+Completed: 200 message:  Time response: 5 ms Request ID: [fa657df3-ab83-4675-aa48-5503d78c16b4]

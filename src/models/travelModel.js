@@ -27,7 +27,7 @@ const searchTravelById = async ({ id }) => {
       message: `No se encontro ${id} Travel  en la base de datos, no existe`,
     };
   }
-  return rows;
+  return rows[0];
 };
 
 const alterPresupuestoTravelById = async (presupuesto, id) => {
@@ -70,15 +70,15 @@ const updateTravel = async (id,  destino, presupuesto) => {
   return response.rows[0];
 };
 
-const erraseDestinoTravelById = async (id) => {
+const eraseDestinoTravelById = async (id) => {
   const SQLquery = {
-    text: "DELETE FROM viajes WHERE id = $1 RETURNING*",
+    text: "DELETE FROM viajes WHERE id = $1",
     values: [id],
   };
 
   try {
     const response = await pool.query(SQLquery);
-    return response.rows;
+    return response.rowCount; //rowCount= cantidad de filas afectadas
   } catch (error) {
     console.log(error);
   }
@@ -90,6 +90,6 @@ export {
   searchTravelById,
   alterPresupuestoTravelById,
   alterDestinoTravelById,
-  erraseDestinoTravelById,
+  eraseDestinoTravelById,
   updateTravel,
 };
