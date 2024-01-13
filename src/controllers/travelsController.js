@@ -8,6 +8,8 @@ import {
   updateTravel,
 } from "../models/travelModel.js";
 
+import { findError } from "../utils/utils.js";
+
 const reportarConsulta = async (req, res, next) => {
   const parametros = req.params;
   const url = req.url;
@@ -35,28 +37,16 @@ const getAllTravels = async (req, res) => {
 const addTravel = async (req, res) => {
   try {
     const { travel } = req.body;
-    /*   if (
-      !travel.destino ||
-      typeof travel.destino !== "string" ||
-      !travel.presupuesto ||
-      typeof travel.presupuesto !== "number" ||
-      travel.presupuesto <= 0
-    ) {
-      throw new Error("Faltan datos por ingresar");
-    } */
     const addedTravel = await insertTravel(travel);
     res.status(201).json({ travel: addedTravel });
   } catch (error) {
-    const { code } = error;
-    console.log("paso por aqui code: ", code);
-    if (code == "23502") {
-      res.status(500).json({ error: "error 23502 sql: " + error.message });
-      return;
+    const errorFound = findError(error.code);
+    if (errorFound.length > 0) {
+      return res
+        .status(errorFound[0].status)
+        .json({ error: errorFound[0].message });
     }
-    // Se puede capturar el error aqui, en models no debe haber captura de errores
-
-    res.status(500).json({ error: "no se proceso solicitud" + error.message });
-    console.log("No se proceso la solicitud", error);
+    return res.status(500).json({ error: error.message });
   }
 };
 
@@ -64,11 +54,13 @@ const getTravelById = async (req, res) => {
   const { id } = req.params;
   try {
     const result = await searchTravelById({ id });
-    res.status(200).json({ travel: result });
+    if (result === undefined) {
+      return res.status(404).json({ message: "No se encontro ningun viaje" });
+    } else {
+      return res.status(200).json({ travel: result });
+    }
   } catch (error) {
-    const { code, message } = error;
-    res.status(code).json({ message: message });
-    console.log("No se proceso la solicitud");
+    res.status(500).json({ message: error.message });
   }
 };
 
@@ -126,6 +118,12 @@ const updateTravels = async (req, res) => {
       throw new Error(
         `Propiedades no permitidas: ${unwantedProperties.join(" , ")}`
       );
+    } else if (!travel.destino && !travel.presupuesto) {
+      throw new Error(
+        `Debes incluir al menos ${allowedProperties.join(
+          " , "
+        )} para actualizar el regristro`
+      );
     }
     const travel_update = await updateTravel(
       id,
@@ -135,7 +133,7 @@ const updateTravels = async (req, res) => {
     res.status(200).json({ travel: travel_update });
   } catch (error) {
     res.status(500).json({
-      error: `Estas agregando una propiedad que no esta permitida ${error.message} `,
+      error: `Actulizar el registro no es posible:  ${error.message} `,
     });
     console.log(error);
   }

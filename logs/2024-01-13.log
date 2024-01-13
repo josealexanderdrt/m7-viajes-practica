@@ -34,3 +34,347 @@ Completed: 404 message:  Time response: 5 ms Request ID: [03a524ca-e44d-4b86-a67
 Started GET /api/v1/travels for :: ::ffff:127.0.0.1 at Fri Jan 12 2024 21:08:20 GMT-0300 (hora de verano de Chile)
   Parameters in body: {"travel":{"destino":"Rosario de Paya"}}
 Completed: 200 message:  Time response: 5 ms Request ID: [fa657df3-ab83-4675-aa48-5503d78c16b4]
+
+Started GET /api/v1/travels for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 10:33:41 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Rosario de Paya"}}
+Completed: 200 message:  Time response: 157 ms Request ID: [e0c09704-bdb0-48a1-bb8f-5eef73633e7f]
+
+Started GET /api/v1/travels for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 10:33:41 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Rosario de Paya"}}
+Completed: 200 message:  Time response: 5 ms Request ID: [cf2563b8-6a57-4e43-a6a8-f166fca6cc27]
+
+Started GET /api/v1/travels for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 10:33:41 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"Rosario de Paya"}}
+Completed: 200 message:  Time response: 4 ms Request ID: [798da6be-e1ac-4492-a1e7-99b0df0e295f]
+
+Started POST /api/v1/travels for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 10:34:18 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"El Macaro","presupuesto":1}}
+Completed: 201 message:  Time response: 102 ms Request ID: [cee2bfe7-3ba4-4049-9e1f-20a680d07877]
+
+Started POST /api/v1/travels for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 10:34:47 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"La Julia","presupuesto":2}}
+Completed: 201 message:  Time response: 115 ms Request ID: [64f1f131-263e-4968-ab67-02ddcd02c5cd]
+
+Started GET /api/v1/travels for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 10:34:56 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"La Julia","presupuesto":2}}
+Completed: 200 message:  Time response: 9 ms Request ID: [f4ed57c2-ad8d-4fe5-9f04-9ff53b2a5dcb]
+
+Started GET /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 10:35:43 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"La Julia","presupuesto":2}}
+Completed: 200 message:  Time response: 106 ms Request ID: [06c299a6-27ba-4e7a-b3f7-3ea2220bdce7]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 10:36:05 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"presupuesto":350}}
+Completed: 200 message:  Time response: 49 ms Request ID: [1efb76ce-aa18-4150-b46d-b82c39016a6f]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 10:36:38 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"presupuesto":"wwww"}}
+Completed: 500 message:  Time response: 111 ms Request ID: [ffd1048c-a98a-401b-ab94-409c641a8fa1]
+
+Started GET /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 10:38:11 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{}}
+Completed: 200 message:  Time response: 75 ms Request ID: [3043405e-8c60-45cd-b51e-93f3daf386a7]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 10:38:16 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{}}
+Completed: 200 message:  Time response: 33 ms Request ID: [badd7144-c24a-4a1e-b635-de6d5d5fb0ac]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 10:41:50 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{}}
+Completed: 200 message:  Time response: 120 ms Request ID: [90dd032d-1687-487b-be55-2d73b03afea5]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 10:41:58 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{}}
+Completed: 200 message:  Time response: 52 ms Request ID: [01f2b0dc-ded0-4fd0-999d-e58bf14b9b07]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 10:45:37 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{}}
+Completed: 500 message:  Time response: 11 ms Request ID: [23d15d79-6a0f-4c12-a579-eaa4fa120ebe]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 10:46:06 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{}}
+Completed: 500 message:  Time response: 12 ms Request ID: [df089450-92df-4ff8-a110-5f3270f970ec]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 10:50:54 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{}}
+Completed: 500 message:  Time response: 13 ms Request ID: [061cb106-c2fa-4c0c-839e-75843473d687]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 10:51:19 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"arepa":300}}
+Completed: 500 message:  Time response: 6 ms Request ID: [c6750216-5398-4535-81e8-b1f38b3e68bb]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 10:54:26 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{}}
+Completed: 500 message:  Time response: 11 ms Request ID: [ee3cefbb-707f-461f-bbee-e0ff254a138f]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 10:55:45 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{}}
+Completed: 500 message:  Time response: 12 ms Request ID: [1c426c28-1c40-4cf6-bfe5-8e2ea3584db6]
+
+Started PUT /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 10:56:08 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{}}
+Completed: 500 message:  Time response: 24 ms Request ID: [d511824f-0b3a-457f-bf5d-936a659ff232]
+
+Started POST /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 11:05:42 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"maria":2929}}
+Completed: 404 message:  Time response: 6 ms Request ID: [d32fcf79-a0f6-479c-901e-41679ca819a6]
+
+Started POST /api/v1/travels for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 11:05:46 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"maria":2929}}
+Completed: 500 message:  Time response: 63 ms Request ID: [c6e61cdf-bf31-4c16-9481-fcc1d010cc0e]
+
+Started POST /api/v1/travels for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 11:06:59 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"maria":2929}}
+Started POST /api/v1/travels for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 11:07:57 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"maria":2929}}
+Started POST /api/v1/travels for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 11:11:50 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"maria":2929}}
+Started GET /api/v1/travels for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 11:12:11 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"maria":2929}}
+Completed: 200 message:  Time response: 62 ms Request ID: [b60e1541-f09e-452c-ad49-5b2cb99d4ca4]
+
+Started POST /api/v1/travels for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 11:12:22 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"maria":2929}}
+Started POST /api/v1/travels for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 11:13:25 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"maria":2929}}
+Started POST /api/v1/travels for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 11:14:20 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"maria":2929}}
+Started POST /api/v1/travels for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 11:15:35 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"maria":2929}}
+Started POST /api/v1/travels for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 11:16:22 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"maria":2929}}
+Started POST /api/v1/travels for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 11:16:45 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"maria":2929}}
+Started POST /api/v1/travels for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 11:17:19 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"maria":2929}}
+Started POST /api/v1/travels for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 11:17:43 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"maria":2929}}
+Started POST /api/v1/travels for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 11:19:03 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"maria":2929}}
+Started POST /api/v1/travels for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 11:19:57 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"maria":2929}}
+Started POST /api/v1/travels for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 11:20:43 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"maria":2929}}
+Started POST /api/v1/travels for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 11:21:57 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"maria":2929}}
+Completed: 500 message:  Time response: 63 ms Request ID: [a26c498b-2337-46db-a121-0c96a0a267ea]
+
+Started POST /api/v1/travels for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 11:22:56 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"maria":2929}}
+Completed: 500 message:  Time response: 60 ms Request ID: [64ca9ffb-b541-4fc9-81d6-3dd580c6748d]
+
+Started POST /api/v1/travels for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 11:24:56 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"maria":2929}}
+Started POST /api/v1/travels for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 11:25:53 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"maria":2929}}
+Started POST /api/v1/travels for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 11:26:52 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{}}
+Started POST /api/v1/travels for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 11:27:40 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{}}
+Started POST /api/v1/travels for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 11:28:20 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{}}
+Started POST /api/v1/travels for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 11:28:41 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{}}
+Started POST /api/v1/travels for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 11:29:57 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{}}
+Started POST /api/v1/travels for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 11:30:28 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{}}
+Started POST /api/v1/travels for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 11:30:55 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{}}
+Started POST /api/v1/travels for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 11:31:19 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{}}
+Started POST /api/v1/travels for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 11:31:47 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{}}
+Started POST /api/v1/travels for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 11:34:05 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{}}
+Started POST /api/v1/travels for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 11:34:21 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{}}
+Started POST /api/v1/travels for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 11:34:33 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{}}
+Started POST /api/v1/travels for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 11:36:10 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{}}
+Completed: 400 message:  Time response: 57 ms Request ID: [ba7003e6-c52c-435b-b98a-9f141183c4af]
+
+Started POST /api/v1/travels for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 11:37:32 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{}}
+Completed: 400 message:  Time response: 59 ms Request ID: [bd8a6ad6-143b-4dcc-a7d4-8051da44185c]
+
+Started POST /api/v1/travels for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 11:43:38 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":1.2345678901234567e+59,"presupuesto":300}}
+Completed: 201 message:  Time response: 56 ms Request ID: [bf7860f4-2f8f-4507-a068-8d64fcd4e724]
+
+Started POST /api/v1/travels for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 11:44:39 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":1.2345678901234567e+59,"presupuesto":"mama juana"}}
+Started POST /api/v1/travels for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 11:45:33 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":1.2345678901234567e+59,"presupuesto":"mama juana"}}
+Started POST /api/v1/travels for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 11:51:12 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":1.2345678901234567e+59,"presupuesto":"mama juana"}}
+Completed: 400 message:  Time response: 63 ms Request ID: [b0a38ff6-d13b-4260-b9ca-b140dee941a7]
+
+Started POST /api/v1/travels for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 11:53:38 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":1.2345678901234567e+59,"presupuesto":"mama juana"}}
+Completed: 400 message:  Time response: 60 ms Request ID: [259d6df5-eae0-4f2f-967a-ee041b6824c8]
+
+Started POST /api/v1/travels for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 11:54:53 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD","presupuesto":"mama juana"}}
+Completed: 400 message:  Time response: 49 ms Request ID: [78e989ab-03e4-4223-98b7-39ad0cf28b4a]
+
+Started POST /api/v1/travels for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 11:54:58 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD","presupuesto":"mama juana"}}
+Completed: 400 message:  Time response: 48 ms Request ID: [92b7d2af-4e22-4f7c-889f-b7e46c8fd583]
+
+Started POST /api/v1/travels for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 11:55:01 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD","presupuesto":"mama juana"}}
+Completed: 400 message:  Time response: 42 ms Request ID: [fa48b3f2-7c88-4dd2-b625-f760a6b48a02]
+
+Started POST /api/v1/travels for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 11:55:18 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"4444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444","presupuesto":"mama juana"}}
+Completed: 400 message:  Time response: 46 ms Request ID: [ab37302a-db8c-4a03-8cce-5f6fc342739e]
+
+Started POST /api/v1/travels for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 11:55:28 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"4444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444","presupuesto":1000}}
+Started POST /api/v1/travels for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 11:55:47 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"4444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444","presupuesto":1000}}
+Started POST /api/v1/travels for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 11:59:11 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":"4444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444","presupuesto":1000}}
+Completed: 400 message:  Time response: 66 ms Request ID: [1905886d-1ad7-41d1-9346-f58990949b2f]
+
+Started POST /api/v1/travels for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 11:59:33 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":4.4444444444444445e+231,"presupuesto":1000}}
+Completed: 201 message:  Time response: 47 ms Request ID: [2ed9d83e-f9e7-4d3f-a531-266a54dbcdb3]
+
+Started GET /api/v1/travels for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 11:59:49 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"destino":4.4444444444444445e+231,"presupuesto":1000}}
+Completed: 200 message:  Time response: 42 ms Request ID: [b34d4c34-3730-4b8a-a675-d05caa850549]
+
+Started GET /api/v1/travels/79 for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 12:00:49 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"presupuesto":1000}}
+Completed: 200 message:  Time response: 42 ms Request ID: [ce074d18-82ae-4987-8747-9e4377ecb30c]
+
+Started GET /api/v1/travels/79 for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 12:02:05 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"presupuesto":1000}}
+Completed: 200 message:  Time response: 153 ms Request ID: [cae5fff0-5f62-4ee5-8d46-efe1de065bc3]
+
+Started GET /api/v1/travels/888 for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 12:04:09 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"presupuesto":1000}}
+Completed: 200 message:  Time response: 146 ms Request ID: [60504751-6616-4321-aa61-7e7260c4be47]
+
+Started GET /api/v1/travels for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 18:09:28 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"presupuesto":"1000"}}
+Completed: 200 message:  Time response: 108 ms Request ID: [bcc3b292-8783-4015-96a1-9960c5676c2b]
+
+Started GET /api/v1/travels for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 18:09:28 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"presupuesto":"1000"}}
+Completed: 200 message:  Time response: 5 ms Request ID: [84855992-dcdd-4281-a7b5-172c5ddbc965]
+
+Started GET /api/v1/travels for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 18:09:29 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"presupuesto":"1000"}}
+Completed: 200 message:  Time response: 4 ms Request ID: [710a1567-b307-4eb9-bc54-41d41a43c225]
+
+Started PUT /api/v1/travels for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 18:09:37 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"presupuesto":"1000"}}
+Completed: 404 message:  Time response: 2 ms Request ID: [1d65c48b-87f3-4e7e-803d-eb1ca29214fe]
+
+Started POST /api/v1/travels for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 18:09:42 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"travel":{"presupuesto":"1000"}}
+Completed: 400 message:  Time response: 125 ms Request ID: [1f59eabf-60a7-467f-9e1e-b8fa959efd55]
+
+Started POST /api/v1/travels for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 18:10:38 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":"1000"}
+Started POST /api/v1/travels for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 18:11:40 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":"1000"}
+Started GET /api/v1/travels for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 18:20:03 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":"1000"}
+Completed: 200 message:  Time response: 71 ms Request ID: [c082944d-7369-4490-8d77-9872ec3e0748]
+
+Started POST /api/v1/travels for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 18:20:12 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":"1000"}
+Completed: 500 message:  Time response: 3 ms Request ID: [d64d41d2-4d95-43c1-af83-14c6d3d2b385]
+
+Started GET /api/v1/travels for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 18:22:25 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":"1000"}
+Completed: 200 message:  Time response: 59 ms Request ID: [d3d20dc8-d544-46f3-9873-708735701dad]
+
+Started GET /api/v1/travels/998 for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 18:22:33 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":"1000"}
+Completed: 200 message:  Time response: 55 ms Request ID: [40686ac4-d50b-443e-a937-ef6e2d3b428c]
+
+Started GET /api/v1/travels/998 for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 18:25:07 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":"1000"}
+Started GET /api/v1/travels/998 for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 18:32:46 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":"1000"}
+Started GET /api/v1/travels/998 for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 18:33:31 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":"1000"}
+Started GET /api/v1/travels/998 for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 18:33:48 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":"1000"}
+Started GET /api/v1/travels/998 for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 18:34:15 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":"1000"}
+Completed: 500 message:  Time response: 58 ms Request ID: [757ffa34-a8f2-4790-a23c-e698a1473092]
+
+Started GET /api/v1/travels/998 for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 18:37:19 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":"1000"}
+Completed: 500 message:  Time response: 70 ms Request ID: [0d65e894-7217-46f1-ad58-311b1c5ddd56]
+
+Started GET /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 18:38:11 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":"1000"}
+Completed: 404 message:  Time response: 62 ms Request ID: [1e51430e-a795-4f86-a24b-9d87b7f813b4]
+
+Started GET /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 18:38:15 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":"1000"}
+Completed: 404 message:  Time response: 4 ms Request ID: [66e23836-3ea2-4af9-8a43-b091c246944a]
+
+Started GET /api/v1/travels for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 18:38:19 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":"1000"}
+Completed: 200 message:  Time response: 4 ms Request ID: [aaa1e5ae-b633-44c1-ba63-9e6e164fdaab]
+
+Started GET /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 18:38:24 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":"1000"}
+Completed: 404 message:  Time response: 3 ms Request ID: [09907371-50f0-4204-b8c2-f4e80ba66fe3]
+
+Started GET /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 18:38:52 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":"1000"}
+Completed: 404 message:  Time response: 57 ms Request ID: [c40f4ed6-c47a-431f-9421-59c262ebda43]
+
+Started GET /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 18:38:54 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":"1000"}
+Completed: 404 message:  Time response: 5 ms Request ID: [21fb4167-3f84-4031-b8e6-5dcbd0b1727e]
+
+Started GET /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 18:39:23 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":"1000"}
+Completed: 404 message:  Time response: 65 ms Request ID: [64332773-04f4-4d14-a3bc-326c4964e4e3]
+
+Started GET /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 18:39:50 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":"1000"}
+Completed: 404 message:  Time response: 60 ms Request ID: [aa2725f1-9000-48bd-9a78-bd9ed9d265b3]
+
+Started GET /api/v1/travels/1 for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 18:42:34 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":"1000"}
+Completed: 200 message:  Time response: 67 ms Request ID: [b8f4ee2c-6602-4189-afaf-496f464cbfe6]
+
+Started GET /api/v1/travels/14455 for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 18:42:38 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":"1000"}
+Completed: 404 message:  Time response: 5 ms Request ID: [1067a4f3-ba10-47eb-b7bd-f8bf62af6b3f]
+
+Started GET /api/v1/travels/14455 for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 18:43:13 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":"1000"}
+Completed: 404 message:  Time response: 60 ms Request ID: [ead6040f-bc3e-4ded-9a82-9a7140d565b1]
+
+Started GET /api/v1/travels/14 for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 18:43:20 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":"1000"}
+Completed: 404 message:  Time response: 6 ms Request ID: [75d32b6e-6b37-41cd-9904-6eebbc681f91]
+
+Started GET /api/v1/travels/14 for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 18:43:47 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":"1000"}
+Completed: 404 message:  Time response: 66 ms Request ID: [5617ef64-c95d-48fd-8350-92f8a93b2114]
+
+Started GET /api/v1/travels/14 for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 18:44:02 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":"1000"}
+Completed: 404 message:  Time response: 63 ms Request ID: [71a4e518-18ad-432e-9642-869da68180c8]
+
+Started GET /api/v1/travels/ssss for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 18:44:07 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":"1000"}
+Completed: 500 message:  Time response: 53 ms Request ID: [941867b6-3512-493f-bbcc-7730ba2d4773]
+
+Started GET /api/v1/travels for :: ::ffff:127.0.0.1 at Sat Jan 13 2024 18:44:35 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"presupuesto":"1000"}
+Completed: 200 message:  Time response: 46 ms Request ID: [d6f5ff14-dc4d-42ae-9fb3-5afec9d53a3b]
